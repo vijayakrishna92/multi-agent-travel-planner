@@ -2,13 +2,32 @@ from crewai import Crew, Agent, Task, Process, LLM
 import os
 import tiktoken
 import json
+from dotenv import load_dotenv
+from langchain_groq import ChatGroq
+import getpass
+load_dotenv()
+
+
+
+if "GROQ_API_KEY" not in os.environ:
+    os.environ["GROQ_API_KEY"] = getpass.getpass("Enter your Groq API key: ")
+
 
 encoding = tiktoken.get_encoding("cl100k_base")
 
 def count_tokens(text: str) -> int:
     return len(encoding.encode(text))
 
-llm = LLM(model='ollama/gemma3:1b', temperature=0.7)
+#api_key = os.environ.get('YOUR_API_KEY')
+
+# LLM Setup
+llm = ChatGroq(
+        model='groq/llama-3.1-8b-instant',
+        api_key=os.environ.get('GROQ_API_KEY'),
+        temperature=0.7,
+    )
+
+#llm = LLM(model='ollama/gemma3:1b', temperature=0.7)
 
 researcher = Agent(
     role="senior travel researcher",
@@ -153,4 +172,4 @@ def main():
 if __name__ == "__main__":
     main()
     
-# litellm, crewai, crewai tool
+# litellm, crewai, python-dotenv, pip install -qU langchain-groq
