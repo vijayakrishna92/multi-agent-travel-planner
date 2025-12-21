@@ -29,6 +29,7 @@ llm = ChatGroq(
 
 #llm = LLM(model='ollama/gemma3:1b', temperature=0.7)
 
+# agent
 researcher = Agent(
     role="senior travel researcher",
     goal="design a personalized trip plan based on structured trip details",
@@ -39,6 +40,7 @@ researcher = Agent(
     llm=llm
 )
 
+# task
 researcher_task = Task(
     description=(
         "Research suitable places, attractions, food options, and accommodations "
@@ -79,11 +81,7 @@ researcher_task = Task(
     ),
     agent=researcher
 )
-trip_details = {
-    'starting_point': 'New York, NY',
-    'destination': 'San Francisco, CA',
-    # rest of your dict...
-}
+
 
 
 
@@ -94,6 +92,13 @@ def main():
         process=Process.sequential,
         verbose=True
     )
+    
+    # for token count
+    trip_details = {
+    'starting_point': 'New York, NY',
+    'destination': 'San Francisco, CA',
+        # rest of your dict...
+    }
     prompt_text = f"""
     Role: {researcher.role}
     Goal: {researcher.goal}
@@ -109,6 +114,7 @@ def main():
     input_tokens = count_tokens(prompt_text)
     print("Estimated input tokens:", input_tokens)
     
+    #crewai 
     result = crew.kickoff(
         inputs={
             'trip_details': {
@@ -162,11 +168,14 @@ def main():
             }
         }
     )
+    # final token usage  
     result_text = str(result)
+    
     completion_tokens = count_tokens(result_text)
 
     print("Estimated completion tokens:", completion_tokens)
     print("Estimated total tokens:", input_tokens + completion_tokens)
+    
     print(result)
     
 if __name__ == "__main__":
