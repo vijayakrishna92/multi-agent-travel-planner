@@ -1,0 +1,46 @@
+# Trip Planning Configuration
+# Fill in the values below for your trip
+
+trip_details:
+  starting_point: "New York, NY"
+  destination: "San Francisco, CA"
+  
+  transport:
+    mode: "self-drive"  # Options: self-drive, flight, train, bus, rental-car
+    electric_vehicle: false
+    show_charging_stations: false
+  
+  budget:
+    amount: 5000
+    currency: "USD"
+  
+  food_preferences:
+    types: ["Italian", "Asian", "Vegetarian"]
+    dietary_restrictions: []  # e.g., ["gluten-free", "vegan", "halal"]
+  
+  duration:
+    number_of_days: 7
+    start_date: "2025-06-15"
+    start_time: "09:00"
+    end_date: "2025-06-22"
+    end_time: "18:00"
+  
+  travelers:
+    total_count: 4
+    breakdown:
+      - type: "adult"
+        count: 2
+      - type: "child"
+        count: 2
+        # ages: [8, 12]
+  
+  preferences:
+    site_types: ["historical", "nature", "adventure", "cultural"]
+    interests: ["museums", "hiking", "local cuisine", "photography"]
+    round_trip: true
+    accommodation_type: "hotel"  # Options: hotel, airbnb, hostel, camping
+  
+  # special_requirements:
+  #   accessibility_needs: false
+  #   pet_friendly: false
+  #   notes: ""

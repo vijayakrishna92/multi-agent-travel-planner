@@ -1,10 +1,10 @@
 RESEARCHER_INPUTS={
             'trip_details': {
-                'destination': 'San Francisco, CA',
+                'destination': 'Mysore',
                 
                 'budget': {
                     'amount': 5000,
-                    'currency': "USD"
+                    'currency': "INR"
                 },
                 
                 'duration': {
@@ -16,7 +16,7 @@ RESEARCHER_INPUTS={
                 },
                 
                 'travelers': {
-                    'total_count': 4,
+                    'total_count': 2,
                     'breakdown': [
                         {
                             'type': "adult",
@@ -24,26 +24,26 @@ RESEARCHER_INPUTS={
                         },
                         {
                             'type': "child",
-                            'count': 2
+                            'count': 0
                         }
                     ]
                 },
                 
                 'preferences': {
                     'site_types': ["historical", "nature", "adventure", "cultural"],
-                    'interests': ["museums", "hiking", "local cuisine", "photography"],
+                    'interests': ["hiking", "local cuisine", "photography"],
                 }
             }
         }
 
 FOOD_ACCOMMODATION_INPUT = {
     "food_preferences": {
-        "types": ["Italian", "Asian", "Vegetarian"],
+        "types": ["South indian", "Vegetarian"],
         "dietary_restrictions": ["no-alcohol"],
         "budget_per_meal": {
-            "min": 10,
-            "max": 40,
-            "currency": "USD"
+            "min": 50,
+            "max": 400,
+            "currency": "INR"
         }
     },
 
@@ -51,9 +51,9 @@ FOOD_ACCOMMODATION_INPUT = {
         "type": "hotel",                
         "star_rating_min": 3,
         "budget_per_night": {
-            "min": 100,
-            "max": 250,
-            "currency": "USD"
+            "min": 500,
+            "max": 1000,
+            "currency": "INR"
         },
         "child_friendly": True,
         "amenities": ["wifi", "parking"]

@@ -1,0 +1,640 @@
+{
+    "optimized_places": [
+        {
+            "name": "Golden Gate Park",
+            "address": "San Francisco, CA",
+            "category": "nature",
+            "opening_timings": "06:00 - 22:00",
+            "nearby_food": [
+                {
+                    "name": "Park Chow",
+                    "location": "San Francisco, CA",
+                    "distance_km": 1.5,
+                    "type": "Asian",
+                    "price": 20,
+                    "amenities": [
+                        "wifi"
+                    ]
+                },
+                {
+                    "name": "La Bodeguita del Medio",
+                    "location": "San Francisco, CA",
+                    "distance_km": 2.1,
+                    "type": "Italian",
+                    "price": 30,
+                    "amenities": [
+                        "parking"
+                    ]
+                }
+            ],
+            "nearby_accommodation": [
+                {
+                    "name": "Hotel Zeppelin",
+                    "location": "San Francisco, CA",
+                    "distance_km": 1.8,
+                    "star_rating": 4,
+                    "price": 150,
+                    "amenities": [
+                        "wifi",
+                        "parking"
+                    ]
+                },
+                {
+                    "name": "Hotel Tomo",
+                    "location": "San Francisco, CA",
+                    "distance_km": 2.5,
+                    "star_rating": 3,
+                    "price": 120,
+                    "amenities": [
+                        "wifi"
+                    ]
+                }
+            ],
+            "latitude": 37.7879363,
+            "longitude": -122.4075201
+        },
+        {
+            "name": "Asian Art Museum",
+            "address": "San Francisco, CA",
+            "category": "cultural",
+            "opening_timings": "10:00 - 17:00",
+            "nearby_food": [
+                {
+                    "name": "The Museum Cafe",
+                    "location": "San Francisco, CA",
+                    "distance_km": 0.8,
+                    "type": "American",
+                    "price": 25,
+                    "amenities": [
+                        "wifi"
+                    ]
+                },
+                {
+                    "name": "The Fisherman's Wharf Cafe",
+                    "location": "San Francisco, CA",
+                    "distance_km": 2.1,
+                    "type": "Seafood",
+                    "price": 30,
+                    "amenities": [
+                        "parking"
+                    ]
+                }
+            ],
+            "nearby_accommodation": [
+                {
+                    "name": "The Hotel Zetta",
+                    "location": "San Francisco, CA",
+                    "distance_km": 2.2,
+                    "star_rating": 4,
+                    "price": 140,
+                    "amenities": [
+                        "wifi",
+                        "parking"
+                    ]
+                },
+                {
+                    "name": "The Buena Vista Hotel",
+                    "location": "San Francisco, CA",
+                    "distance_km": 2.5,
+                    "star_rating": 3,
+                    "price": 120,
+                    "amenities": [
+                        "wifi"
+                    ]
+                }
+            ],
+            "latitude": 37.7879363,
+            "longitude": -122.4075201
+        },
+        {
+            "name": "San Francisco Museum of Modern Art (SFMOMA)",
+            "address": "San Francisco, CA",
+            "category": "cultural",
+            "opening_timings": "11:00 - 19:00",
+            "nearby_food": [
+                {
+                    "name": "The Museum Cafe",
+                    "location": "San Francisco, CA",
+                    "distance_km": 0.8,
+                    "type": "American",
+                    "price": 25,
+                    "amenities": [
+                        "wifi"
+                    ]
+                },
+                {
+                    "name": "The Fisherman's Grotto",
+                    "location": "San Francisco, CA",
+                    "distance_km": 2.1,
+                    "type": "Seafood",
+                    "price": 35,
+                    "amenities": [
+                        "parking"
+                    ]
+                }
+            ],
+            "nearby_accommodation": [
+                {
+                    "name": "The Hotel des Arts",
+                    "location": "San Francisco, CA",
+                    "distance_km": 2.2,
+                    "star_rating": 3,
+                    "price": 110,
+                    "amenities": [
+                        "wifi",
+                        "parking"
+                    ]
+                },
+                {
+                    "name": "The San Francisco Hostel",
+                    "location": "San Francisco, CA",
+                    "distance_km": 2.8,
+                    "star_rating": 2,
+                    "price": 80,
+                    "amenities": [
+                        "wifi"
+                    ]
+                }
+            ],
+            "latitude": 37.7879363,
+            "longitude": -122.4075201
+        },
+        {
+            "name": "Exploratorium",
+            "address": "San Francisco, CA",
+            "category": "cultural",
+            "opening_timings": "10:00 - 17:00",
+            "nearby_food": [
+                {
+                    "name": "The Fisherman's Wharf Cafe",
+                    "location": "San Francisco, CA",
+                    "distance_km": 1.1,
+                    "type": "Seafood",
+                    "price": 30,
+                    "amenities": [
+                        "parking"
+                    ]
+                },
+                {
+                    "name": "The Alioto's",
+                    "location": "San Francisco, CA",
+                    "distance_km": 1.5,
+                    "type": "Italian",
+                    "price": 35,
+                    "amenities": [
+                        "wifi"
+                    ]
+                }
+            ],
+            "nearby_accommodation": [
+                {
+                    "name": "The Hotel Zetta",
+                    "location": "San Francisco, CA",
+                    "distance_km": 1.1,
+                    "star_rating": 4,
+                    "price": 140,
+                    "amenities": [
+                        "wifi",
+                        "parking"
+                    ]
+                },
+                {
+                    "name": "The Buena Vista Hotel",
+                    "location": "San Francisco, CA",
+                    "distance_km": 1.5,
+                    "star_rating": 3,
+                    "price": 120,
+                    "amenities": [
+                        "wifi"
+                    ]
+                }
+            ],
+            "latitude": 37.7879363,
+            "longitude": -122.4075201
+        },
+        {
+            "name": "Rock Climbing at Pier 45",
+            "address": "San Francisco, CA",
+            "category": "adventure",
+            "opening_timings": "09:00 - 18:00",
+            "nearby_food": [
+                {
+                    "name": "The Fisherman's Wharf Cafe",
+                    "location": "San Francisco, CA",
+                    "distance_km": 1.1,
+                    "type": "Seafood",
+                    "price": 30,
+                    "amenities": [
+                        "parking"
+                    ]
+                },
+                {
+                    "name": "The Alioto's",
+                    "location": "San Francisco, CA",
+                    "distance_km": 1.5,
+                    "type": "Italian",
+                    "price": 35,
+                    "amenities": [
+                        "wifi"
+                    ]
+                }
+            ],
+            "nearby_accommodation": [
+                {
+                    "name": "The Hotel Zetta",
+                    "location": "San Francisco, CA",
+                    "distance_km": 1.1,
+                    "star_rating": 4,
+                    "price": 140,
+                    "amenities": [
+                        "wifi",
+                        "parking"
+                    ]
+                },
+                {
+                    "name": "The Buena Vista Hotel",
+                    "location": "San Francisco, CA",
+                    "distance_km": 1.5,
+                    "star_rating": 3,
+                    "price": 120,
+                    "amenities": [
+                        "wifi"
+                    ]
+                }
+            ],
+            "latitude": 37.7879363,
+            "longitude": -122.4075201
+        },
+        {
+            "name": "Kayaking in San Francisco Bay",
+            "address": "San Francisco, CA",
+            "category": "adventure",
+            "opening_timings": "09:00 - 17:00",
+            "nearby_food": [
+                {
+                    "name": "The Fisherman's Grotto",
+                    "location": "San Francisco, CA",
+                    "distance_km": 2.1,
+                    "type": "Seafood",
+                    "price": 35,
+                    "amenities": [
+                        "parking"
+                    ]
+                },
+                {
+                    "name": "The Alioto's",
+                    "location": "San Francisco, CA",
+                    "distance_km": 2.5,
+                    "type": "Italian",
+                    "price": 30,
+                    "amenities": [
+                        "wifi"
+                    ]
+                }
+            ],
+            "nearby_accommodation": [
+                {
+                    "name": "The Hotel des Arts",
+                    "location": "San Francisco, CA",
+                    "distance_km": 2.2,
+                    "star_rating": 3,
+                    "price": 110,
+                    "amenities": [
+                        "wifi",
+                        "parking"
+                    ]
+                },
+                {
+                    "name": "The San Francisco Hostel",
+                    "location": "San Francisco, CA",
+                    "distance_km": 2.8,
+                    "star_rating": 2,
+                    "price": 80,
+                    "amenities": [
+                        "wifi"
+                    ]
+                }
+            ],
+            "latitude": 37.7879363,
+            "longitude": -122.4075201
+        },
+        {
+            "name": "Bike Rentals at Fisherman's Wharf",
+            "address": "San Francisco, CA",
+            "category": "adventure",
+            "opening_timings": "09:00 - 20:00",
+            "nearby_food": [
+                {
+                    "name": "The Fisherman's Wharf Cafe",
+                    "location": "San Francisco, CA",
+                    "distance_km": 1.1,
+                    "type": "Seafood",
+                    "price": 30,
+                    "amenities": [
+                        "parking"
+                    ]
+                },
+                {
+                    "name": "The Alioto's",
+                    "location": "San Francisco, CA",
+                    "distance_km": 1.5,
+                    "type": "Italian",
+                    "price": 35,
+                    "amenities": [
+                        "wifi"
+                    ]
+                }
+            ],
+            "nearby_accommodation": [
+                {
+                    "name": "The Hotel Zetta",
+                    "location": "San Francisco, CA",
+                    "distance_km": 1.1,
+                    "star_rating": 4,
+                    "price": 140,
+                    "amenities": [
+                        "wifi",
+                        "parking"
+                    ]
+                },
+                {
+                    "name": "The Buena Vista Hotel",
+                    "location": "San Francisco, CA",
+                    "distance_km": 1.5,
+                    "star_rating": 3,
+                    "price": 120,
+                    "amenities": [
+                        "wifi"
+                    ]
+                }
+            ],
+            "latitude": 37.7879363,
+            "longitude": -122.4075201
+        },
+        {
+            "name": "Fisherman's Wharf",
+            "address": "San Francisco, CA",
+            "category": "historical",
+            "opening_timings": "24/7",
+            "nearby_food": [
+                {
+                    "name": "The Crab Shack",
+                    "location": "San Francisco, CA",
+                    "distance_km": 1.5,
+                    "type": "Seafood",
+                    "price": 30,
+                    "amenities": [
+                        "parking"
+                    ]
+                },
+                {
+                    "name": "The Alioto's",
+                    "location": "San Francisco, CA",
+                    "distance_km": 2.1,
+                    "type": "Italian",
+                    "price": 35,
+                    "amenities": [
+                        "wifi"
+                    ]
+                }
+            ],
+            "nearby_accommodation": [
+                {
+                    "name": "The Hotel Zetta",
+                    "location": "San Francisco, CA",
+                    "distance_km": 1.8,
+                    "star_rating": 4,
+                    "price": 140,
+                    "amenities": [
+                        "wifi",
+                        "parking"
+                    ]
+                },
+                {
+                    "name": "The Buena Vista Hotel",
+                    "location": "San Francisco, CA",
+                    "distance_km": 2.2,
+                    "star_rating": 3,
+                    "price": 120,
+                    "amenities": [
+                        "wifi"
+                    ]
+                }
+            ],
+            "latitude": 37.7879363,
+            "longitude": -122.4075201
+        },
+        {
+            "name": "Golden Gate Bridge",
+            "address": "San Francisco, CA",
+            "category": "historical",
+            "opening_timings": "24/7",
+            "nearby_food": [
+                {
+                    "name": "The Golden Gate Park Cafe",
+                    "location": "San Francisco, CA",
+                    "distance_km": 1.8,
+                    "type": "American",
+                    "price": 25,
+                    "amenities": [
+                        "wifi"
+                    ]
+                },
+                {
+                    "name": "The Fisherman's Wharf Cafe",
+                    "location": "San Francisco, CA",
+                    "distance_km": 2.1,
+                    "type": "Seafood",
+                    "price": 30,
+                    "amenities": [
+                        "parking"
+                    ]
+                }
+            ],
+            "nearby_accommodation": [
+                {
+                    "name": "The Hotel des Arts",
+                    "location": "San Francisco, CA",
+                    "distance_km": 1.9,
+                    "star_rating": 3,
+                    "price": 110,
+                    "amenities": [
+                        "wifi",
+                        "parking"
+                    ]
+                },
+                {
+                    "name": "The San Francisco Hostel",
+                    "location": "San Francisco, CA",
+                    "distance_km": 2.5,
+                    "star_rating": 2,
+                    "price": 80,
+                    "amenities": [
+                        "wifi"
+                    ]
+                }
+            ],
+            "latitude": 37.7879363,
+            "longitude": -122.4075201
+        },
+        {
+            "name": "Alcatraz Island",
+            "address": "San Francisco, CA",
+            "category": "historical",
+            "opening_timings": "09:30 - 19:30",
+            "nearby_food": [
+                {
+                    "name": "The Fisherman's Grotto",
+                    "location": "San Francisco, CA",
+                    "distance_km": 2.1,
+                    "type": "Seafood",
+                    "price": 35,
+                    "amenities": [
+                        "parking"
+                    ]
+                },
+                {
+                    "name": "The Alioto's",
+                    "location": "San Francisco, CA",
+                    "distance_km": 2.5,
+                    "type": "Italian",
+                    "price": 30,
+                    "amenities": [
+                        "wifi"
+                    ]
+                }
+            ],
+            "nearby_accommodation": [
+                {
+                    "name": "The Hotel del Sol",
+                    "location": "San Francisco, CA",
+                    "distance_km": 2.2,
+                    "star_rating": 3,
+                    "price": 120,
+                    "amenities": [
+                        "wifi",
+                        "parking"
+                    ]
+                },
+                {
+                    "name": "The Buena Vista Hotel",
+                    "location": "San Francisco, CA",
+                    "distance_km": 2.8,
+                    "star_rating": 3,
+                    "price": 100,
+                    "amenities": [
+                        "wifi"
+                    ]
+                }
+            ],
+            "latitude": 37.7879363,
+            "longitude": -122.4075201
+        },
+        {
+            "name": "Lands End",
+            "address": "San Francisco, CA",
+            "category": "nature",
+            "opening_timings": "24/7",
+            "nearby_food": [
+                {
+                    "name": "The Cliff House",
+                    "location": "San Francisco, CA",
+                    "distance_km": 2.2,
+                    "type": "Seafood",
+                    "price": 35,
+                    "amenities": [
+                        "parking"
+                    ]
+                },
+                {
+                    "name": "The Beach Chalet",
+                    "location": "San Francisco, CA",
+                    "distance_km": 2.8,
+                    "type": "American",
+                    "price": 25,
+                    "amenities": [
+                        "wifi"
+                    ]
+                }
+            ],
+            "nearby_accommodation": [
+                {
+                    "name": "The Ocean Beach Hotel",
+                    "location": "San Francisco, CA",
+                    "distance_km": 2.5,
+                    "star_rating": 3,
+                    "price": 140,
+                    "amenities": [
+                        "wifi",
+                        "parking"
+                    ]
+                },
+                {
+                    "name": "The Sea Lions Inn",
+                    "location": "San Francisco, CA",
+                    "distance_km": 3,
+                    "star_rating": 3,
+                    "price": 110,
+                    "amenities": [
+                        "wifi"
+                    ]
+                }
+            ],
+            "latitude": 37.7879363,
+            "longitude": -122.4075201
+        },
+        {
+            "name": "Muir Woods National Monument",
+            "address": "Mill Valley, CA",
+            "category": "nature",
+            "opening_timings": "08:00 - 18:00",
+            "nearby_food": [
+                {
+                    "name": "The Mill Valley Inn",
+                    "location": "Mill Valley, CA",
+                    "distance_km": 2.1,
+                    "type": "American",
+                    "price": 30,
+                    "amenities": [
+                        "parking"
+                    ]
+                },
+                {
+                    "name": "The Village Inn",
+                    "location": "Mill Valley, CA",
+                    "distance_km": 2.5,
+                    "type": "Italian",
+                    "price": 25,
+                    "amenities": [
+                        "wifi"
+                    ]
+                }
+            ],
+            "nearby_accommodation": [
+                {
+                    "name": "The Mill Valley Hotel",
+                    "location": "Mill Valley, CA",
+                    "distance_km": 2.2,
+                    "star_rating": 3,
+                    "price": 130,
+                    "amenities": [
+                        "wifi",
+                        "parking"
+                    ]
+                },
+                {
+                    "name": "The Creek Inn",
+                    "location": "Mill Valley, CA",
+                    "distance_km": 2.8,
+                    "star_rating": 3,
+                    "price": 100,
+                    "amenities": [
+                        "wifi"
+                    ]
+                }
+            ],
+            "latitude": 37.9060368,
+            "longitude": -122.5449763
+        }
+    ]
+}
