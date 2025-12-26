@@ -1,6 +1,7 @@
 from crewai import Crew,Process
 from agents import food_accomodation_agent
 from tasks import food_accomodation_task
+from core import json_toon
 import json
 import user_input
 
@@ -11,10 +12,12 @@ def foods_accomodations(places_data):
         process=Process.sequential,
         verbose=True
     )
+    p_input = {'places_data':json_toon.json_toon_converter(places_data)}
+    f_a_input = {'food_accommodation_input':json_toon.json_toon_converter(user_input.FOOD_ACCOMMODATION_INPUT)}
     raw_food_accomodation_data = food_accomodation_crew.kickoff(
         inputs= {
-            "places_data": places_data,
-            "food_accommodation_input": user_input.FOOD_ACCOMMODATION_INPUT
+            "places_data": p_input,
+            "food_accommodation_input":f_a_input
                 }
     )
     food_accomodation_data = json.loads(str(raw_food_accomodation_data))

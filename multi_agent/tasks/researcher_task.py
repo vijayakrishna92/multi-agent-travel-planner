@@ -5,10 +5,10 @@ researcher = Task(
     description=(
         "Research suitable places and attractions "
         "using the following trip details:\n\n"
-        "{trip_details}\n\n"
+        "{task_details}\n\n"
         "IMPORTANT: Only research places that match the site_types specified in preferences. "
         "The site_types are the categories you must use. "
-        "For each site_type in the preferences, find 2-3 relevant places with complete addresses."
+        "For each site_type in the preferences, find 2 relevant places with complete addresses."
     ),
     expected_output=(
         "Return ONLY a properly formatted JSON object in the following structure:\n\n"
@@ -25,7 +25,7 @@ researcher = Task(
         "}\n\n"
         "Rules:\n"
         "- Use ONLY the site_types from preferences as category names (e.g., if preferences has ['historical', 'nature'], use only those)\n"
-        "- Each category must contain 2-3 places\n"
+        "- Each category must contain 2 places\n"
         "- Provide complete address with city, state, and pincode for location field\n"
         "- Output JSON only\n"
         "- No markdown formatting (no ```json or ```)\n"

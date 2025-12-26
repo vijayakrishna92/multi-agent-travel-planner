@@ -2,6 +2,7 @@ from crewai import Crew, Process
 from agents import researcher_agent
 from tasks import researcher_task
 import json
+from core import json_toon
 import user_input
 
 def researchers():
@@ -11,9 +12,9 @@ def researchers():
         process=Process.sequential,
         verbose=True
     )
-    
+    u_input = {'task_details':json_toon.json_toon_converter(user_input.RESEARCHER_INPUTS)}
     raw_places_output = researcher_crew.kickoff(
-        inputs=user_input.RESEARCHER_INPUTS
+        inputs=u_input
     )
     places_data = json.loads(str(raw_places_output))
     

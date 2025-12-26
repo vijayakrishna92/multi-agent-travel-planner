@@ -3,81 +3,57 @@
     "historical": [
       {
         "name": "Mysore Palace",
-        "location": "Jaganmohan Palace Road, Agrahara, Mysuru, Karnataka 570001",
-        "opening_timings": "9:00 AM to 5:30 PM",
+        "location": "Jaya Chamaraja Wadiyar, Sayyaji Rao Road, Mysuru, Karnataka 570001",
+        "opening_timings": "10:00 AM to 5:30 PM",
         "id": 1
       },
       {
-        "name": "Lalitha Mahal Palace",
-        "location": "Lalitha Mahal Palace Road, Hebbal, Mysuru, Karnataka 570017",
-        "opening_timings": "9:00 AM to 5:30 PM",
+        "name": "St. Philomena's Church",
+        "location": "JLB Road, Ashokapuram, Mysuru, Karnataka 570001",
+        "opening_timings": "7:00 AM to 6:00 PM",
         "id": 2
-      },
-      {
-        "name": "St. Philomena's Cathedral",
-        "location": "Sayyaji Rao Road, Nazarbad, Mysuru, Karnataka 570001",
-        "opening_timings": "6:00 AM to 6:00 PM",
-        "id": 3
       }
     ],
     "nature": [
       {
-        "name": "Brindavan Garden",
-        "location": "KRS Road, Brindavan Garden, Mysuru, Karnataka 570005",
-        "opening_timings": "6:00 AM to 8:00 PM",
+        "name": "Brindavan Gardens",
+        "location": "Channapatna Road, Srirangapatna, Mandya, Karnataka 571438",
+        "opening_timings": "9:00 AM to 6:30 PM",
+        "id": 3
+      },
+      {
+        "name": "Kabini River",
+        "location": "Hunsur - Heggadadevana Kote - Nagarhole Road, Hunsur, Karnataka 571105",
+        "opening_timings": "Always accessible, 24/7",
         "id": 4
-      },
-      {
-        "name": "Karighatta",
-        "location": "Karighatta, Mysuru, Karnataka 570019",
-        "opening_timings": "6:00 AM to 6:00 PM",
-        "id": 5
-      },
-      {
-        "name": "Shivasamudra Falls",
-        "location": "Hassan, Karnataka 573101",
-        "opening_timings": "24 hours",
-        "id": 6
       }
     ],
     "adventure": [
       {
-        "name": "GR Hills",
-        "location": "GR Hills, Mysuru, Karnataka 570008",
-        "opening_timings": "6:00 AM to 6:00 PM",
-        "id": 7
+        "name": "Mysore Trekking",
+        "location": "Hunasamaranahalli, Hunsur, Karnataka, 571105",
+        "opening_timings": "Always accessible, 24/7",
+        "id": 5
       },
       {
-        "name": "Kaveri River",
-        "location": "Kaveri River, Mysuru, Karnataka 570001",
-        "opening_timings": "24 hours",
-        "id": 8
-      },
-      {
-        "name": "Mysore Zoo",
-        "location": "Sri Chamarajendra Zoological Gardens, Mysuru, Karnataka 570001",
-        "opening_timings": "8:00 AM to 5:30 PM",
-        "id": 9
+        "name": "Tadiandamol Peak",
+        "location": "Somwarpet Hobli, Madikeri Taluk, Kodagu District, Karnataka, 571201",
+        "opening_timings": "Always accessible, 24/7",
+        "id": 6
       }
     ],
     "cultural": [
       {
         "name": "Devaraja Market",
         "location": "Devaraja Urs Road, Devaraja Mohalla, Mysuru, Karnataka 570001",
-        "opening_timings": "9:00 AM to 7:00 PM",
-        "id": 10
+        "opening_timings": "9:00 AM to 8:00 PM",
+        "id": 7
       },
       {
         "name": "Mysore Sand Sculpture Museum",
-        "location": "Chamundi Layout, Mysuru, Karnataka 570017",
-        "opening_timings": "9:00 AM to 6:00 PM",
-        "id": 11
-      },
-      {
-        "name": "Sri Kaleshwara Temple",
-        "location": "Sri Kaleshwara Temple, Bannur, Mysuru, Karnataka 571302",
-        "opening_timings": "6:00 AM to 6:00 PM",
-        "id": 12
+        "location": "Opposite Chamundi Hills, Hebbal, Mysuru, Karnataka 570017",
+        "opening_timings": "10:00 AM to 6:00 PM",
+        "id": 8
       }
     ]
   }
