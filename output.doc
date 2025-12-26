@@ -1,0 +1,857 @@
+27/12/2025, 01:51:33	llama-3.1-8b-instant	
+vijaykrishna
+200	0.107	2.497	647	2163	
+
+(.virt) C:\multi-agent-travel-planner\multi_agent>python main.py
+╭─────────────────────────────────────────────────────────────────── Crew Execution Started ───────────────────────────────────────────────────────────────────╮
+│                                                                                                                                                              │
+│  Crew Execution Started                                                                                                                                      │
+│  Name: crew                                                                                                                                                  │
+│  ID: cbc6d05e-358e-456a-967a-c34774ede9a2                                                                                                                    │
+│  Tool Args:                                                                                                                                                  │
+│                                                                                                                                                              │
+│                                                                                                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+🚀 Crew: crew
+└── 📋 Task: 5f720bbb-b75b-42cc-8ce0-e9369416e8fc
+    Status: Executing Task...
+╭────────────────────────────────────────────────────────────────────── 🤖 Agent Started ──────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                                              │
+│  Agent: senior travel researcher                                                                                                                             │
+│                                                                                                                                                              │
+│  Task: Research suitable places and attractions using the following trip details:                                                                            │
+│                                                                                                                                                              │
+│  trip_details:                                                                                                                                               │
+│    destination: Mysore                                                                                                                                       │
+│    budget:                                                                                                                                                   │
+│      amount: 5000                                                                                                                                            │
+│      currency: INR                                                                                                                                           │
+│    duration:                                                                                                                                                 │
+│      number_of_days: 3                                                                                                                                       │
+│      start_date: 2025-06-15                                                                                                                                  │
+│      start_time: "09:00"                                                                                                                                     │
+│      end_date: 2025-06-18                                                                                                                                    │
+│      end_time: "18:00"                                                                                                                                       │
+│    travelers:                                                                                                                                                │
+│      total_count: 2                                                                                                                                          │
+│      breakdown    [2]{type,count}:                                                                                                                           │
+│        adult,2                                                                                                                                               │
+│        child,0                                                                                                                                               │
+│    preferences:                                                                                                                                              │
+│      site_types[4]: historical,nature,adventure,cultural                                                                                                     │
+│      interests[3]: hiking,local cuisine,photography                                                                                                          │
+│                                                                                                                                                              │
+│  IMPORTANT: Only research places that match the site_types specified in preferences. The site_types are the categories you must use. For each site_type in   │
+│  the preferences, find 2 relevant places with complete addresses.                                                                                            │
+│                                                                                                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+
+🚀 Crew: crew
+└── 📋 Task: 5f720bbb-b75b-42cc-8ce0-e9369416e8fc
+    Assigned to: senior travel researcher
+    Status: ✅ Completed
+╭─────────────────────────────────────────────────────────────────── ✅ Agent Final Answer ────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                                              │
+│  Agent: senior travel researcher                                                                                                                             │
+│                                                                                                                                                              │
+│  Final Answer:                                                                                                                                               │
+│  {                                                                                                                                                           │
+│    "places": {                                                                                                                                               │
+│      "historical": [                                                                                                                                         │
+│        {                                                                                                                                                     │
+│          "name": "Mysore Palace",                                                                                                                            │
+│          "location": "Jaya Chamaraja Wadiyar, Sayyaji Rao Road, Mysuru, Karnataka 570001",                                                                   │
+│          "opening_timings": "10:00 AM to 5:30 PM"                                                                                                            │
+│        },                                                                                                                                                    │
+│        {                                                                                                                                                     │
+│          "name": "St. Philomena's Church",                                                                                                                   │
+│          "location": "JLB Road, Ashokapuram, Mysuru, Karnataka 570001",                                                                                      │
+│          "opening_timings": "7:00 AM to 6:00 PM"                                                                                                             │
+│        }                                                                                                                                                     │
+│      ],                                                                                                                                                      │
+│      "nature": [                                                                                                                                             │
+│        {                                                                                                                                                     │
+│          "name": "Brindavan Gardens",                                                                                                                        │
+│          "location": "Channapatna Road, Srirangapatna, Mandya, Karnataka 571438",                                                                            │
+│          "opening_timings": "9:00 AM to 6:30 PM"                                                                                                             │
+│        },                                                                                                                                                    │
+│        {                                                                                                                                                     │
+│          "name": "Kabini River",                                                                                                                             │
+│          "location": "Hunsur - Heggadadevana Kote - Nagarhole Road, Hunsur, Karnataka 571105",                                                               │
+│          "opening_timings": "Always accessible, 24/7"                                                                                                        │
+│        }                                                                                                                                                     │
+│      ],                                                                                                                                                      │
+│      "adventure": [                                                                                                                                          │
+│        {                                                                                                                                                     │
+│          "name": "Mysore Trekking",                                                                                                                          │
+│          "location": "Hunasamaranahalli, Hunsur, Karnataka, 571105",                                                                                         │
+│          "opening_timings": "Always accessible, 24/7"                                                                                                        │
+│        },                                                                                                                                                    │
+│        {                                                                                                                                                     │
+│          "name": "Tadiandamol Peak",                                                                                                                         │
+│          "location": "Somwarpet Hobli, Madikeri Taluk, Kodagu District, Karnataka, 571201",                                                                  │
+│          "opening_timings": "Always accessible, 24/7"                                                                                                        │
+│        }                                                                                                                                                     │
+│      ],                                                                                                                                                      │
+{'places': {'historical': [{'name': 'Mysore Palace', 'location': 'Jaya Chamaraja Wadiyar, Sayyaji Rao Road, Mysuru, Karnataka 570001', 'opening_timings': '10:00 AM to 5:30 PM', 'id': 1}, {'name': "St. Philomena's Church", 'location': 'JLB Road, Ashokapuram, Mysuru, Karnataka 570001', 'opening_timings': '7:00 AM to 6:00 PM', 'id': 2}], 'nature': [{'name': 'Brindavan Gardens', 'location': 'Channapatna Road, Srirangapatna, Mandya, Karnataka 571438', 'opening_timings': '9:00 AM to 6:30 PM', 'id': 3}, {'name': 'Kabini River', 'location': 'Hunsur - Heggadadevana Kote - Nagarhole Road, Hunsur, Karnataka 571105', 'opening_timings': 'Always accessible, 24/7', 'id': 4}], 'adventure': [{'name': 'Mysore Trekking', 'location': 'Hunasamaranahalli, Hunsur, Karnataka, 571105', 'opening_timings': 'Always accessible, 24/7', 'id': 5}, {'name': 'Tadiandamol Peak', 'location': 'Somwarpet Hobli, Madikeri Taluk, Kodagu District, Karnataka, 571201', 'opening_timings': 'Always accessible, 24/7', 'id': 6}], 'cultural': [{'name': 'Devaraja Market', 'location': 'Devaraja Urs Road, Devaraja Mohalla, Mysuru, Karnataka 570001', 'opening_timings': '9:00 AM to 8:00 PM', 'id': 7}, {'name': 'Mysore Sand Sculpture Museum', 'location': 'Opposite Chamundi Hills, Hebbal, Mysuru, Karnataka 570017', 'opening_timings': '10:00 AM to 6:00 PM', 'id': 8}]}}
+│      "cultural": [                                                                                                                                           │
+│        {                                                                                                                                                     │
+│          "name": "Devaraja Market",                                                                                                                          │
+│          "location": "Devaraja Urs Road, Devaraja Mohalla, Mysuru, Karnataka 570001",                                                                        │
+│          "opening_timings": "9:00 AM to 8:00 PM"                                                                                                             │
+│        },                                                                                                                                                    │
+│        {                                                                                                                                                     │
+│          "name": "Mysore Sand Sculpture Museum",                                                                                                             │
+│          "location": "Opposite Chamundi Hills, Hebbal, Mysuru, Karnataka 570017",                                                                            │
+│          "opening_timings": "10:00 AM to 6:00 PM"                                                                                                            │
+│        }                                                                                                                                                     │
+│      ]                                                                                                                                                       │
+│    }                                                                                                                                                         │
+│  }                                                                                                                                                           │
+│                                                                                                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+Output saved to places_output.json
+
+--- Extracted ID and Locations ---
+[{'id': 1, 'location': 'Jaya Chamaraja Wadiyar, Sayyaji Rao Road, Mysuru, Karnataka 570001'}, {'id': 2, 'location': 'JLB Road, Ashokapuram, Mysuru, Karnataka 570001'}, {'id': 3, 'location': 'Channapatna Road, Srirangapatna, Mandya, Karnataka 571438'}, {'id': 4, 'location': 'Hunsur - Heggadadevana Kote - Nagarhole Road, Hunsur, Karnataka 571105'}, {'id': 5, 'location': 'Hunasamaranahalli, Hunsur, Karnataka, 571105'}, {'id': 6, 'location': 'Somwarpet Hobli, Madikeri Taluk, Kodagu District, Karnataka, 571201'}, {'id': 7, 'location': 'Devaraja Urs Road, Devaraja Mohalla, Mysuru, Karnataka 570001'}, {'id': 8, 'location': 'Opposite Chamundi Hills, Hebbal, Mysuru, Karnataka 570017'}]
+
+╭────────────────────────────────────────────────────────────────────── Task Completion ───────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                                              │
+│  Task Completed                                                                                                                                              │
+│  Name: 5f720bbb-b75b-42cc-8ce0-e9369416e8fc                                                                                                                  │
+│  Agent: senior travel researcher                                                                                                                             │
+│  Tool Args:                                                                                                                                                  │
+│                                                                                                                                                              │
+│                                                                                                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭────────────────────────────────────────────────────────────────────── Crew Completion ───────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                                              │
+│  Crew Execution Completed                                                                                                                                    │
+│  Name: crew                                                                                                                                                  │
+│  ID: cbc6d05e-358e-456a-967a-c34774ede9a2                                                                                                                    │
+│  Tool Args:                                                                                                                                                  │
+│  Final Output: {                                                                                                                                             │
+│    "places": {                                                                                                                                               │
+│      "historical": [                                                                                                                                         │
+│        {                                                                                                                                                     │
+│          "name": "Mysore Palace",                                                                                                                            │
+│          "location": "Jaya Chamaraja Wadiyar, Sayyaji Rao Road, Mysuru, Karnataka 570001",                                                                   │
+│          "opening_timings": "10:00 AM to 5:30 PM"                                                                                                            │
+│        },                                                                                                                                                    │
+│        {                                                                                                                                                     │
+│          "name": "St. Philomena's Church",                                                                                                                   │
+│          "location": "JLB Road, Ashokapuram, Mysuru, Karnataka 570001",                                                                                      │
+│          "opening_timings": "7:00 AM to 6:00 PM"                                                                                                             │
+│        }                                                                                                                                                     │
+│      ],                                                                                                                                                      │
+│      "nature": [                                                                                                                                             │
+│        {                                                                                                                                                     │
+│          "name": "Brindavan Gardens",                                                                                                                        │
+│          "location": "Channapatna Road, Srirangapatna, Mandya, Karnataka 571438",                                                                            │
+│          "opening_timings": "9:00 AM to 6:30 PM"                                                                                                             │
+│        },                                                                                                                                                    │
+│        {                                                                                                                                                     │
+│          "name": "Kabini River",                                                                                                                             │
+│          "location": "Hunsur - Heggadadevana Kote - Nagarhole Road, Hunsur, Karnataka 571105",                                                               │
+│          "opening_timings": "Always accessible, 24/7"                                                                                                        │
+│        }                                                                                                                                                     │
+│      ],                                                                                                                                                      │
+│      "adventure": [                                                                                                                                          │
+│        {                                                                                                                                                     │
+│          "name": "Mysore Trekking",                                                                                                                          │
+│          "location": "Hunasamaranahalli, Hunsur, Karnataka, 571105",                                                                                         │
+│          "opening_timings": "Always accessible, 24/7"                                                                                                        │
+│        },                                                                                                                                                    │
+│        {                                                                                                                                                     │
+│          "name": "Tadiandamol Peak",                                                                                                                         │
+│          "location": "Somwarpet Hobli, Madikeri Taluk, Kodagu District, Karnataka, 571201",                                                                  │
+│          "opening_timings": "Always accessible, 24/7"                                                                                                        │
+│        }                                                                                                                                                     │
+│      ],                                                                                                                                                      │
+│      "cultural": [                                                                                                                                           │
+│        {                                                                                                                                                     │
+│          "name": "Devaraja Market",                                                                                                                          │
+│          "location": "Devaraja Urs Road, Devaraja Mohalla, Mysuru, Karnataka 570001",                                                                        │
+│          "opening_timings": "9:00 AM to 8:00 PM"                                                                                                             │
+│        },                                                                                                                                                    │
+│        {                                                                                                                                                     │
+│          "name": "Mysore Sand Sculpture Museum",                                                                                                             │
+│          "location": "Opposite Chamundi Hills, Hebbal, Mysuru, Karnataka 570017",                                                                            │
+│          "opening_timings": "10:00 AM to 6:00 PM"                                                                                                            │
+│        }                                                                                                                                                     │
+│      ]                                                                                                                                                       │
+│    }                                                                                                                                                         │
+│  }                                                                                                                                                           │
+│                                                                                                                                                              │
+│                                                                                                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+
+╭─────────────────────────────────────────────────────────────────── Crew Execution Started ───────────────────────────────────────────────────────────────────╮
+│                                                                                                                                                              │
+│  Crew Execution Started                                                                                                                                      │
+│  Name: crew                                                                                                                                                  │
+│  ID: 45b78e57-0e26-4966-a8c3-986c8642b010                                                                                                                    │
+│  Tool Args:                                                                                                                                                  │
+│                                                                                                                                                              │
+│                                                                                                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭─────────────────────────────────────────────────────────────────────── Tracing Status ───────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                                              │
+│  Info: Tracing is disabled.                                                                                                                                  │
+│                                                                                                                                                              │
+│  To enable tracing, do any one of these:                                                                                                                     │
+│  • Set tracing=True in your Crew/Flow code                                                                                                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file                                                                                               │
+│  • Run: crewai traces enable                                                                                                                                 │
+│                                                                                                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+🚀 Crew: crew
+└── 📋 Task: c2312998-4bf0-4901-8012-0fe4c27b12ff
+    Status: Executing Task...
+╭────────────────────────────────────────────────────────────────────── 🤖 Agent Started ──────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                                              │
+│  Agent: food and accommodation specialist                                                                                                                    │
+│                                                                                                                                                              │
+│  Task: Using the following places data:                                                                                                                      │
+│                                                                                                                                                              │
+│  {'places_data': '[8]{id,location}:\n  1,"Jaya Chamaraja Wadiyar, Sayyaji Rao Road, Mysuru, Karnataka 570001"\n  2,"JLB Road, Ashokapuram, Mysuru,           │
+│  Karnataka 570001"\n  3,"Channapatna Road, Srirangapatna, Mandya, Karnataka 571438"\n  4,"Hunsur - Heggadadevana Kote - Nagarhole Road, Hunsur, Karnataka    │
+│  571105"\n  5,"Hunasamaranahalli, Hunsur, Karnataka, 571105"\n  6,"Somwarpet Hobli, Madikeri Taluk, Kodagu District, Karnataka, 571201"\n  7,"Devaraja Urs   │
+│  Road, Devaraja Mohalla, Mysuru, Karnataka 570001"\n  8,"Opposite Chamundi Hills, Hebbal, Mysuru, Karnataka 570017"'}                                        │
+│                                                                                                                                                              │
+│  And the user food & accommodation preferences:                                                                                                              │
+│                                                                                                                                                              │
+│  {'food_accommodation_input': 'food_preferences:\n  types[2]: South indian,Vegetarian\n  dietary_restrictions[1]: no-alcohol\n  budget_per_meal:\n    min:   │
+│  50\n    max: 400\n    currency: INR\naccommodation_preferences:\n  type: hotel\n  star_rating_min: 3\n  budget_per_night:\n    min: 500\n    max: 1000\n    │
+│  currency: INR\n  child_friendly: true\n  amenities[2]: wifi,parking\ndistance_constraints:\n  max_distance_km: 3'}                                          │
+│                                                                                                                                                              │
+│  For EACH place:                                                                                                                                             │
+│  - Provide AT MOST 2 nearby food options                                                                                                                     │
+│  - Provide AT MOST 2 nearby accommodations                                                                                                                   │
+│  - Do NOT exceed these limits                                                                                                                                │
+│  - Prefer closer and better-matching options                                                                                                                 │
+│                                                                                                                                                              │
+│                                                                                                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+
+🚀 Crew: crew
+└── 📋 Task: c2312998-4bf0-4901-8012-0fe4c27b12ff
+    Assigned to: food and accommodation specialist
+    Status: ✅ Completed
+╭─────────────────────────────────────────────────────────────────── ✅ Agent Final Answer ────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                                              │
+│  Agent: food and accommodation specialist                                                                                                                    │
+│                                                                                                                                                              │
+│  Final Answer:                                                                                                                                               │
+│  ```json                                                                                                                                                     │
+│  {                                                                                                                                                           │
+│    "results": [                                                                                                                                              │
+│      {                                                                                                                                                       │
+│        "id": 1,                                                                                                                                              │
+│        "location": "Jaya Chamaraja Wadiyar, Sayyaji Rao Road, Mysuru, Karnataka 570001",                                                                     │
+│        "food_options": [                                                                                                                                     │
+│          {                                                                                                                                                   │
+│            "name": "Sarvana Bhavan",                                                                                                                         │
+│            "distance_km": 0.5,                                                                                                                               │
+│            "rating": 4.5,                                                                                                                                    │
+│            "price_range": "50-150 INR"                                                                                                                       │
+│          },                                                                                                                                                  │
+│          {                                                                                                                                                   │
+│            "name": "Hotel Madhava Brahmins",                                                                                                                 │
+│            "distance_km": 1.2,                                                                                                                               │
+│            "rating": 4.2,                                                                                                                                    │
+│            "price_range": "100-250 INR"                                                                                                                      │
+│          }                                                                                                                                                   │
+│        ],                                                                                                                                                    │
+│        "accommodation_options": [                                                                                                                            │
+│          {                                                                                                                                                   │
+│            "name": "Royal Orchid Metropolis",                                                                                                                │
+│            "distance_km": 1.5,                                                                                                                               │
+│            "star_rating": 4,                                                                                                                                 │
+│            "price_range": "800-1200 INR",                                                                                                                    │
+│            "amenities": ["wifi", "parking", "pool"]                                                                                                          │
+│          },                                                                                                                                                  │
+│          {                                                                                                                                                   │
+│            "name": "Orange Hotel",                                                                                                                           │
+│            "distance_km": 2.1,                                                                                                                               │
+│            "star_rating": 3.5,                                                                                                                               │
+│            "price_range": "600-1000 INR",                                                                                                                    │
+│            "amenities": ["wifi", "parking"]                                                                                                                  │
+│          }                                                                                                                                                   │
+│        ]                                                                                                                                                     │
+│      },                                                                                                                                                      │
+│      {                                                                                                                                                       │
+│        "id": 2,                                                                                                                                              │
+│        "location": "JLB Road, Ashokapuram, Mysuru, Karnataka 570001",                                                                                        │
+│        "food_options": [                                                                                                                                     │
+│          {                                                                                                                                                   │
+│            "name": "Gandhi Bhojan Shala",                                                                                                                    │
+│            "distance_km": 0.8,                                                                                                                               │
+│            "rating": 4.3,                                                                                                                                    │
+│            "price_range": "30-100 INR"                                                                                                                       │
+│          },                                                                                                                                                  │
+│          {                                                                                                                                                   │
+│            "name": "Hotel RMR",                                                                                                                              │
+│            "distance_km": 1.5,                                                                                                                               │
+│            "rating": 4.1,                                                                                                                                    │
+│            "price_range": "150-300 INR"                                                                                                                      │
+│          }                                                                                                                                                   │
+│        ],                                                                                                                                                    │
+│        "accommodation_options": [                                                                                                                            │
+│          {                                                                                                                                                   │
+│            "name": "Hotel Kaveri",                                                                                                                           │
+│            "distance_km": 1.8,                                                                                                                               │
+│            "star_rating": 3.8,                                                                                                                               │
+│            "price_range": "700-1100 INR",                                                                                                                    │
+│            "amenities": ["wifi", "parking"]                                                                                                                  │
+│          },                                                                                                                                                  │
+│          {                                                                                                                                                   │
+│            "name": "OYO 12265 Krishna Residency",                                                                                                            │
+│            "distance_km": 2.3,                                                                                                                               │
+│            "star_rating": 3.2,                                                                                                                               │
+│            "price_range": "500-900 INR",                                                                                                                     │
+│            "amenities": ["wifi", "parking"]                                                                                                                  │
+│          }                                                                                                                                                   │
+│        ]                                                                                                                                                     │
+│      },                                                                                                                                                      │
+│      {                                                                                                                                                       │
+│        "id": 3,                                                                                                                                              │
+│        "location": "Channapatna Road, Srirangapatna, Mandya, Karnataka 571438",                                                                              │
+│        "food_options": [                                                                                                                                     │
+│          {                                                                                                                                                   │
+│            "name": "Hotel Srirangapatna",                                                                                                                    │
+│            "distance_km": 0.5,                                                                                                                               │
+│            "rating": 4.4,                                                                                                                                    │
+│            "price_range": "100-250 INR"                                                                                                                      │
+│          },                                                                                                                                                  │
+Traceback (most recent call last):
+  File "C:\multi-agent-travel-planner\multi_agent\main.py", line 9, in <module>
+│          {                                                                                                                                                   │
+│            "name": "Anjaneya Cafe",                                                                                                                          │
+│            "distance_km": 1.1,                                                                                                                               │
+│            "rating": 4.1,                                                                                                                                    │
+│            "price_range": "50-150 INR"                                                                                                                       │
+│          }                                                                                                                                                   │
+│        ],                                                                                                                                                    │
+│        "accommodation_options": [                                                                                                                            │
+│          {                                                                                                                                                   │
+│            "name": "Shanthi Deluxe",                                                                                                                         │
+│            "distance_km": 1.6,                                                                                                                               │
+│            "star_rating": 3.9,                                                                                                                               │
+│            "price_range": "900-1300 INR",                                                                                                                    │
+│            "amenities": ["wifi", "parking", "pool"]                                                                                                          │
+│          },                                                                                                                                                  │
+│          {                                                                                                                                                   │
+│            "name": "Hotel Ananda",                                                                                                                           │
+│            "distance_km": 2.2,                                                                                                                               │
+│            "star_rating": 3.5,                                                                                                                               │
+│            "price_range": "600-1000 INR",                                                                                                                    │
+│            "amenities": ["wifi", "parking"]                                                                                                                  │
+│          }                                                                                                                                                   │
+│        ]                                                                                                                                                     │
+│      },                                                                                                                                                      │
+│      {                                                                                                                                                       │
+│        "id": 4,                                                                                                                                              │
+│        "location": "Hunsur - Heggadadevana Kote - Nagarhole Road, Hunsur, Karnataka 571105",                                                                 │
+│        "food_options": [                                                                                                                                     │
+│          {                                                                                                                                                   │
+│            "name": "Hotel Hunsur",                                                                                                                           │
+│            "distance_km": 0.7,                                                                                                                               │
+│            "rating": 4.2,                                                                                                                                    │
+│            "price_range": "150-300 INR"                                                                                                                      │
+│          },                                                                                                                                                  │
+│          {                                                                                                                                                   │
+│            "name": "Sri Krishna Mess",                                                                                                                       │
+│            "distance_km": 1.4,                                                                                                                               │
+│            "rating": 4.0,                                                                                                                                    │
+│            "price_range": "50-150 INR"                                                                                                                       │
+│          }                                                                                                                                                   │
+│        ],                                                                                                                                                    │
+│        "accommodation_options": [                                                                                                                            │
+│          {                                                                                                                                                   │
+    main()
+│            "name": "Hotel Nagarhole",                                                                                                                        │
+│            "distance_km": 1.9,                                                                                                                               │
+│            "star_rating": 3.7,                                                                                                                               │
+│            "price_range": "800-1200 INR",                                                                                                                    │
+│            "amenities": ["wifi", "parking"]                                                                                                                  │
+│          },                                                                                                                                                  │
+│          {                                                                                                                                                   │
+│            "name": "OYO 11811 Green Leaf Residency",                                                                                                         │
+│            "distance_km": 2.5,                                                                                                                               │
+│            "star_rating": 3.3,                                                                                                                               │
+│            "price_range": "500-900 INR",                                                                                                                     │
+│            "amenities": ["wifi", "parking"]                                                                                                                  │
+│          }                                                                                                                                                   │
+│        ]                                                                                                                                                     │
+│      },                                                                                                                                                      │
+│      {                                                                                                                                                       │
+│        "id": 5,                                                                                                                                              │
+│        "location": "Hunasamaranahalli, Hunsur, Karnataka, 571105",                                                                                           │
+│        "food_options": [                                                                                                                                     │
+│          {                                                                                                                                                   │
+│            "name": "Hotel Hunasamaranahalli",                                                                                                                │
+│            "distance_km": 0.4,                                                                                                                               │
+│            "rating": 4.3,                                                                                                                                    │
+│            "price_range": "100-250 INR"                                                                                                                      │
+│          },                                                                                                                                                  │
+│          {                                                                                                                                                   │
+│            "name": "Sri Rama Mess",                                                                                                                          │
+│            "distance_km": 1.1,                                                                                                                               │
+│            "rating": 4.0,                                                                                                                                    │
+│            "price_range": "50-150 INR"                                                                                                                       │
+│          }                                                                                                                                                   │
+│        ],                                                                                                                                                    │
+│        "accommodation_options": [                                                                                                                            │
+│          {                                                                                                                                                   │
+│            "name": "Hotel Hunsur Palace",                                                                                                                    │
+│            "distance_km": 1.6,                                                                                                                               │
+│            "star_rating": 3.8,                                                                                                                               │
+│            "price_range": "700-1100 INR",                                                                                                                    │
+│            "amenities": ["wifi", "parking"]                                                                                                                  │
+│          },                                                                                                                                                  │
+│          {                                                                                                                                                   │
+│            "name": "OYO 11701 Green Field Residency",                                                                                                        │
+│            "distance_km": 2.2,                                                                                                                               │
+  File "C:\multi-agent-travel-planner\multi_agent\main.py", line 5, in main
+│            "star_rating": 3.2,                                                                                                                               │
+│            "price_range": "500-900 INR",                                                                                                                     │
+│            "amenities": ["wifi", "parking"]                                                                                                                  │
+│          }                                                                                                                                                   │
+│        ]                                                                                                                                                     │
+│      },                                                                                                                                                      │
+│      {                                                                                                                                                       │
+│        "id": 6,                                                                                                                                              │
+│        "location": "Somwarpet Hobli, Madikeri Taluk, Kodagu District, Karnataka, 571201",                                                                    │
+│        "food_options": [                                                                                                                                     │
+│          {                                                                                                                                                   │
+│            "name": "Hotel Somwarpet",                                                                                                                        │
+│            "distance_km": 0.6,                                                                                                                               │
+│            "rating": 4.2,                                                                                                                                    │
+│            "price_range": "150-300 INR"                                                                                                                      │
+│          },                                                                                                                                                  │
+│          {                                                                                                                                                   │
+│            "name": "Sri Krishna Cafe",                                                                                                                       │
+│            "distance_km": 1.3,                                                                                                                               │
+│            "rating": 4.0,                                                                                                                                    │
+│            "price_range": "50-150 INR"                                                                                                                       │
+│          }                                                                                                                                                   │
+│        ],                                                                                                                                                    │
+│        "accommodation_options": [                                                                                                                            │
+│          {                                                                                                                                                   │
+│            "name": "Hotel Madikeri",                                                                                                                         │
+│            "distance_km": 2.0,                                                                                                                               │
+│            "star_rating": 3.6,                                                                                                                               │
+│            "price_range": "600-1000 INR",                                                                                                                    │
+│            "amenities": ["wifi", "parking"]                                                                                                                  │
+│          },                                                                                                                                                  │
+│          {                                                                                                                                                   │
+│            "name": "OYO 11601 Coorg Residency",                                                                                                              │
+│            "distance_km": 2.6,                                                                                                                               │
+│            "star_rating": 3.1,                                                                                                                               │
+│            "price_range": "500-900 INR",                                                                                                                     │
+│            "amenities": ["wifi", "parking"]                                                                                                                  │
+│          }                                                                                                                                                   │
+│        ]                                                                                                                                                     │
+│      },                                                                                                                                                      │
+│      {                                                                                                                                                       │
+│        "id": 7,                                                                                                                                              │
+│        "location": "Devaraja Urs Road, Devaraja Mohalla, Mysuru, Karnataka 570001",                                                                          │
+    food_accomodation_crews.foods_accomodations(places_data)
+  File "C:\multi-agent-travel-planner\multi_agent\crews\food_accomodation_crews.py", line 23, in foods_accomodations
+│        "food_options": [                                                                                                                                     │
+│          {                                                                                                                                                   │
+│            "name": "Hotel Devaraja",                                                                                                                         │
+│            "distance_km": 0.5,                                                                                                                               │
+│            "rating": 4.4,                                                                                                                                    │
+│            "price_range": "100-250 INR"                                                                                                                      │
+│          },                                                                                                                                                  │
+│          {                                                                                                                                                   │
+│            "name": "Sri Rama Cafe",                                                                                                                          │
+│            "distance_km": 1.2,                                                                                                                               │
+│            "rating": 4.1,                                                                                                                                    │
+│            "price_range": "50-150 INR"                                                                                                                       │
+│          }                                                                                                                                                   │
+│        ],                                                                                                                                                    │
+│        "accommodation_options": [                                                                                                                            │
+│          {                                                                                                                                                   │
+│            "name": "Hotel Mysore",                                                                                                                           │
+│            "distance_km": 1.7,                                                                                                                               │
+│            "star_rating": 3.9,                                                                                                                               │
+│            "price_range": "800-1200 INR",                                                                                                                    │
+│            "amenities": ["wifi", "parking", "pool"]                                                                                                          │
+│          },                                                                                                                                                  │
+│          {                                                                                                                                                   │
+│            "name": "OYO 12165 Mysore Residency",                                                                                                             │
+│            "distance_km": 2.4,                                                                                                                               │
+│            "star_rating": 3.4,                                                                                                                               │
+│            "price_range": "500-900 INR",                                                                                                                     │
+│            "amenities": ["wifi", "parking"]                                                                                                                  │
+│          }                                                                                                                                                   │
+│        ]                                                                                                                                                     │
+│      },                                                                                                                                                      │
+│      {                                                                                                                                                       │
+│        "id": 8,                                                                                                                                              │
+│        "location": "Opposite Chamundi Hills, Hebbal, Mysuru, Karnataka 570017",                                                                              │
+│        "food_options": [                                                                                                                                     │
+│          {                                                                                                                                                   │
+│            "name": "Hotel Hebbal",                                                                                                                           │
+│            "distance_km": 0.8,                                                                                                                               │
+│            "rating": 4.3,                                                                                                                                    │
+│            "price_range": "150-300 INR"                                                                                                                      │
+│          },                                                                                                                                                  │
+│          {                                                                                                                                                   │
+│            "name": "Sri Krishna Mess",                                                                                                                       │
+    food_accomodation_data = json.loads(str(raw_food_accomodation_data))
+│            "distance_km": 1.6,                                                                                                                               │
+│            "rating": 4.0,                                                                                                                                    │
+│            "price_range": "50-150 INR"                                                                                                                       │
+│          }                                                                                                                                                   │
+│        ],                                                                                                                                                    │
+│        "accommodation_options": [                                                                                                                            │
+│          {                                                                                                                                                   │
+│            "name": "Hotel Chamundi",                                                                                                                         │
+│            "distance_km": 2.1,                                                                                                                               │
+│            "star_rating": 3.7,                                                                                                                               │
+│            "price_range": "700-1100 INR",                                                                                                                    │
+│            "amenities": ["wifi", "parking"]                                                                                                                  │
+│          },                                                                                                                                                  │
+│          {                                                                                                                                                   │
+│            "name": "OYO 12011 Hebbal Residency",                                                                                                             │
+│            "distance_km": 2.7,                                                                                                                               │
+│            "star_rating": 3.2,                                                                                                                               │
+│            "price_range": "500-900 INR",                                                                                                                     │
+│            "amenities": ["wifi", "parking"]                                                                                                                  │
+│          }                                                                                                                                                   │
+│        ]                                                                                                                                                     │
+│      }                                                                                                                                                       │
+│    ]                                                                                                                                                         │
+│  }                                                                                                                                                           │
+│  ```                                                                                                                                                         │
+│                                                                                                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VIJAY\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VIJAY\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\VIJAY\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+╭────────────────────────────────────────────────────────────────────── Task Completion ───────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                                              │
+│  Task Completed                                                                                                                                              │
+│  Name: c2312998-4bf0-4901-8012-0fe4c27b12ff                                                                                                                  │
+│  Agent: food and accommodation specialist                                                                                                                    │
+│  Tool Args:                                                                                                                                                  │
+│                                                                                                                                                              │
+│                                                                                                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+
+╭────────────────────────────────────────────────────────────────────── Crew Completion ───────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                                              │
+│  Crew Execution Completed                                                                                                                                    │
+│  Name: crew                                                                                                                                                  │
+│  ID: 45b78e57-0e26-4966-a8c3-986c8642b010                                                                                                                    │
+│  Tool Args:                                                                                                                                                  │
+│  Final Output: ```json                                                                                                                                       │
+│  {                                                                                                                                                           │
+│    "results": [                                                                                                                                              │
+│      {                                                                                                                                                       │
+│        "id": 1,                                                                                                                                              │
+│        "location": "Jaya Chamaraja Wadiyar, Sayyaji Rao Road, Mysuru, Karnataka 570001",                                                                     │
+│        "food_options": [                                                                                                                                     │
+│          {                                                                                                                                                   │
+│            "name": "Sarvana Bhavan",                                                                                                                         │
+│            "distance_km": 0.5,                                                                                                                               │
+│            "rating": 4.5,                                                                                                                                    │
+│            "price_range": "50-150 INR"                                                                                                                       │
+│          },                                                                                                                                                  │
+│          {                                                                                                                                                   │
+│            "name": "Hotel Madhava Brahmins",                                                                                                                 │
+│            "distance_km": 1.2,                                                                                                                               │
+│            "rating": 4.2,                                                                                                                                    │
+│            "price_range": "100-250 INR"                                                                                                                      │
+│          }                                                                                                                                                   │
+│        ],                                                                                                                                                    │
+│        "accommodation_options": [                                                                                                                            │
+│          {                                                                                                                                                   │
+│            "name": "Royal Orchid Metropolis",                                                                                                                │
+│            "distance_km": 1.5,                                                                                                                               │
+│            "star_rating": 4,                                                                                                                                 │
+│            "price_range": "800-1200 INR",                                                                                                                    │
+│            "amenities": ["wifi", "parking", "pool"]                                                                                                          │
+│          },                                                                                                                                                  │
+│          {                                                                                                                                                   │
+│            "name": "Orange Hotel",                                                                                                                           │
+│            "distance_km": 2.1,                                                                                                                               │
+│            "star_rating": 3.5,                                                                                                                               │
+│            "price_range": "600-1000 INR",                                                                                                                    │
+│            "amenities": ["wifi", "parking"]                                                                                                                  │
+│          }                                                                                                                                                   │
+│        ]                                                                                                                                                     │
+│      },                                                                                                                                                      │
+│      {                                                                                                                                                       │
+│        "id": 2,                                                                                                                                              │
+│        "location": "JLB Road, Ashokapuram, Mysuru, Karnataka 570001",                                                                                        │
+│        "food_options": [                                                                                                                                     │
+│          {                                                                                                                                                   │
+│            "name": "Gandhi Bhojan Shala",                                                                                                                    │
+│            "distance_km": 0.8,                                                                                                                               │
+│            "rating": 4.3,                                                                                                                                    │
+│            "price_range": "30-100 INR"                                                                                                                       │
+│          },                                                                                                                                                  │
+│          {                                                                                                                                                   │
+│            "name": "Hotel RMR",                                                                                                                              │
+│            "distance_km": 1.5,                                                                                                                               │
+│            "rating": 4.1,                                                                                                                                    │
+│            "price_range": "150-300 INR"                                                                                                                      │
+│          }                                                                                                                                                   │
+│        ],                                                                                                                                                    │
+│        "accommodation_options": [                                                                                                                            │
+│          {                                                                                                                                                   │
+│            "name": "Hotel Kaveri",                                                                                                                           │
+│            "distance_km": 1.8,                                                                                                                               │
+│            "star_rating": 3.8,                                                                                                                               │
+│            "price_range": "700-1100 INR",                                                                                                                    │
+│            "amenities": ["wifi", "parking"]                                                                                                                  │
+│          },                                                                                                                                                  │
+│          {                                                                                                                                                   │
+│            "name": "OYO 12265 Krishna Residency",                                                                                                            │
+│            "distance_km": 2.3,                                                                                                                               │
+│            "star_rating": 3.2,                                                                                                                               │
+│            "price_range": "500-900 INR",                                                                                                                     │
+│            "amenities": ["wifi", "parking"]                                                                                                                  │
+│          }                                                                                                                                                   │
+│        ]                                                                                                                                                     │
+│      },                                                                                                                                                      │
+│      {                                                                                                                                                       │
+│        "id": 3,                                                                                                                                              │
+│        "location": "Channapatna Road, Srirangapatna, Mandya, Karnataka 571438",                                                                              │
+│        "food_options": [                                                                                                                                     │
+│          {                                                                                                                                                   │
+│            "name": "Hotel Srirangapatna",                                                                                                                    │
+│            "distance_km": 0.5,                                                                                                                               │
+│            "rating": 4.4,                                                                                                                                    │
+│            "price_range": "100-250 INR"                                                                                                                      │
+│          },                                                                                                                                                  │
+│          {                                                                                                                                                   │
+│            "name": "Anjaneya Cafe",                                                                                                                          │
+│            "distance_km": 1.1,                                                                                                                               │
+│            "rating": 4.1,                                                                                                                                    │
+│            "price_range": "50-150 INR"                                                                                                                       │
+│          }                                                                                                                                                   │
+│        ],                                                                                                                                                    │
+│        "accommodation_options": [                                                                                                                            │
+│          {                                                                                                                                                   │
+│            "name": "Shanthi Deluxe",                                                                                                                         │
+│            "distance_km": 1.6,                                                                                                                               │
+│            "star_rating": 3.9,                                                                                                                               │
+│            "price_range": "900-1300 INR",                                                                                                                    │
+│            "amenities": ["wifi", "parking", "pool"]                                                                                                          │
+│          },                                                                                                                                                  │
+│          {                                                                                                                                                   │
+│            "name": "Hotel Ananda",                                                                                                                           │
+│            "distance_km": 2.2,                                                                                                                               │
+│            "star_rating": 3.5,                                                                                                                               │
+│            "price_range": "600-1000 INR",                                                                                                                    │
+│            "amenities": ["wifi", "parking"]                                                                                                                  │
+│          }                                                                                                                                                   │
+│        ]                                                                                                                                                     │
+│      },                                                                                                                                                      │
+│      {                                                                                                                                                       │
+│        "id": 4,                                                                                                                                              │
+│        "location": "Hunsur - Heggadadevana Kote - Nagarhole Road, Hunsur, Karnataka 571105",                                                                 │
+│        "food_options": [                                                                                                                                     │
+│          {                                                                                                                                                   │
+│            "name": "Hotel Hunsur",                                                                                                                           │
+│            "distance_km": 0.7,                                                                                                                               │
+│            "rating": 4.2,                                                                                                                                    │
+│            "price_range": "150-300 INR"                                                                                                                      │
+│          },                                                                                                                                                  │
+│          {                                                                                                                                                   │
+│            "name": "Sri Krishna Mess",                                                                                                                       │
+│            "distance_km": 1.4,                                                                                                                               │
+│            "rating": 4.0,                                                                                                                                    │
+│            "price_range": "50-150 INR"                                                                                                                       │
+│          }                                                                                                                                                   │
+│        ],                                                                                                                                                    │
+│        "accommodation_options": [                                                                                                                            │
+│          {                                                                                                                                                   │
+│            "name": "Hotel Nagarhole",                                                                                                                        │
+│            "distance_km": 1.9,                                                                                                                               │
+│            "star_rating": 3.7,                                                                                                                               │
+│            "price_range": "800-1200 INR",                                                                                                                    │
+│            "amenities": ["wifi", "parking"]                                                                                                                  │
+│          },                                                                                                                                                  │
+│          {                                                                                                                                                   │
+│            "name": "OYO 11811 Green Leaf Residency",                                                                                                         │
+│            "distance_km": 2.5,                                                                                                                               │
+│            "star_rating": 3.3,                                                                                                                               │
+│            "price_range": "500-900 INR",                                                                                                                     │
+│            "amenities": ["wifi", "parking"]                                                                                                                  │
+│          }                                                                                                                                                   │
+│        ]                                                                                                                                                     │
+│      },                                                                                                                                                      │
+│      {                                                                                                                                                       │
+│        "id": 5,                                                                                                                                              │
+│        "location": "Hunasamaranahalli, Hunsur, Karnataka, 571105",                                                                                           │
+│        "food_options": [                                                                                                                                     │
+│          {                                                                                                                                                   │
+│            "name": "Hotel Hunasamaranahalli",                                                                                                                │
+│            "distance_km": 0.4,                                                                                                                               │
+│            "rating": 4.3,                                                                                                                                    │
+│            "price_range": "100-250 INR"                                                                                                                      │
+│          },                                                                                                                                                  │
+│          {                                                                                                                                                   │
+│            "name": "Sri Rama Mess",                                                                                                                          │
+│            "distance_km": 1.1,                                                                                                                               │
+│            "rating": 4.0,                                                                                                                                    │
+│            "price_range": "50-150 INR"                                                                                                                       │
+│          }                                                                                                                                                   │
+│        ],                                                                                                                                                    │
+│        "accommodation_options": [                                                                                                                            │
+│          {                                                                                                                                                   │
+│            "name": "Hotel Hunsur Palace",                                                                                                                    │
+│            "distance_km": 1.6,                                                                                                                               │
+│            "star_rating": 3.8,                                                                                                                               │
+│            "price_range": "700-1100 INR",                                                                                                                    │
+│            "amenities": ["wifi", "parking"]                                                                                                                  │
+│          },                                                                                                                                                  │
+│          {                                                                                                                                                   │
+│            "name": "OYO 11701 Green Field Residency",                                                                                                        │
+│            "distance_km": 2.2,                                                                                                                               │
+│            "star_rating": 3.2,                                                                                                                               │
+│            "price_range": "500-900 INR",                                                                                                                     │
+│            "amenities": ["wifi", "parking"]                                                                                                                  │
+│          }                                                                                                                                                   │
+│        ]                                                                                                                                                     │
+│      },                                                                                                                                                      │
+│      {                                                                                                                                                       │
+│        "id": 6,                                                                                                                                              │
+│        "location": "Somwarpet Hobli, Madikeri Taluk, Kodagu District, Karnataka, 571201",                                                                    │
+│        "food_options": [                                                                                                                                     │
+│          {                                                                                                                                                   │
+│            "name": "Hotel Somwarpet",                                                                                                                        │
+│            "distance_km": 0.6,                                                                                                                               │
+│            "rating": 4.2,                                                                                                                                    │
+│            "price_range": "150-300 INR"                                                                                                                      │
+│          },                                                                                                                                                  │
+│          {                                                                                                                                                   │
+│            "name": "Sri Krishna Cafe",                                                                                                                       │
+│            "distance_km": 1.3,                                                                                                                               │
+│            "rating": 4.0,                                                                                                                                    │
+│            "price_range": "50-150 INR"                                                                                                                       │
+│          }                                                                                                                                                   │
+│        ],                                                                                                                                                    │
+│        "accommodation_options": [                                                                                                                            │
+│          {                                                                                                                                                   │
+│            "name": "Hotel Madikeri",                                                                                                                         │
+│            "distance_km": 2.0,                                                                                                                               │
+│            "star_rating": 3.6,                                                                                                                               │
+│            "price_range": "600-1000 INR",                                                                                                                    │
+│            "amenities": ["wifi", "parking"]                                                                                                                  │
+│          },                                                                                                                                                  │
+│          {                                                                                                                                                   │
+│            "name": "OYO 11601 Coorg Residency",                                                                                                              │
+│            "distance_km": 2.6,                                                                                                                               │
+│            "star_rating": 3.1,                                                                                                                               │
+│            "price_range": "500-900 INR",                                                                                                                     │
+│            "amenities": ["wifi", "parking"]                                                                                                                  │
+│          }                                                                                                                                                   │
+│        ]                                                                                                                                                     │
+│      },                                                                                                                                                      │
+│      {                                                                                                                                                       │
+│        "id": 7,                                                                                                                                              │
+│        "location": "Devaraja Urs Road, Devaraja Mohalla, Mysuru, Karnataka 570001",                                                                          │
+│        "food_options": [                                                                                                                                     │
+│          {                                                                                                                                                   │
+│            "name": "Hotel Devaraja",                                                                                                                         │
+│            "distance_km": 0.5,                                                                                                                               │
+│            "rating": 4.4,                                                                                                                                    │
+│            "price_range": "100-250 INR"                                                                                                                      │
+│          },                                                                                                                                                  │
+│          {                                                                                                                                                   │
+│            "name": "Sri Rama Cafe",                                                                                                                          │
+│            "distance_km": 1.2,                                                                                                                               │
+│            "rating": 4.1,                                                                                                                                    │
+│            "price_range": "50-150 INR"                                                                                                                       │
+│          }                                                                                                                                                   │
+│        ],                                                                                                                                                    │
+│        "accommodation_options": [                                                                                                                            │
+│          {                                                                                                                                                   │
+│            "name": "Hotel Mysore",                                                                                                                           │
+│            "distance_km": 1.7,                                                                                                                               │
+│            "star_rating": 3.9,                                                                                                                               │
+│            "price_range": "800-1200 INR",                                                                                                                    │
+│            "amenities": ["wifi", "parking", "pool"]                                                                                                          │
+│          },                                                                                                                                                  │
+│          {                                                                                                                                                   │
+│            "name": "OYO 12165 Mysore Residency",                                                                                                             │
+│            "distance_km": 2.4,                                                                                                                               │
+│            "star_rating": 3.4,                                                                                                                               │
+│            "price_range": "500-900 INR",                                                                                                                     │
+│            "amenities": ["wifi", "parking"]                                                                                                                  │
+│          }                                                                                                                                                   │
+│        ]                                                                                                                                                     │
+│      },                                                                                                                                                      │
+│      {                                                                                                                                                       │
+│        "id": 8,                                                                                                                                              │
+│        "location": "Opposite Chamundi Hills, Hebbal, Mysuru, Karnataka 570017",                                                                              │
+│        "food_options": [                                                                                                                                     │
+│          {                                                                                                                                                   │
+│            "name": "Hotel Hebbal",                                                                                                                           │
+│            "distance_km": 0.8,                                                                                                                               │
+│            "rating": 4.3,                                                                                                                                    │
+│            "price_range": "150-300 INR"                                                                                                                      │
+│          },                                                                                                                                                  │
+│          {                                                                                                                                                   │
+│            "name": "Sri Krishna Mess",                                                                                                                       │
+│            "distance_km": 1.6,                                                                                                                               │
+│            "rating": 4.0,                                                                                                                                    │
+│            "price_range": "50-150 INR"                                                                                                                       │
+│          }                                                                                                                                                   │
+│        ],                                                                                                                                                    │
+│        "accommodation_options": [                                                                                                                            │
+│          {                                                                                                                                                   │
+│            "name": "Hotel Chamundi",                                                                                                                         │
+│            "distance_km": 2.1,                                                                                                                               │
+│            "star_rating": 3.7,                                                                                                                               │
+│            "price_range": "700-1100 INR",                                                                                                                    │
+│            "amenities": ["wifi", "parking"]                                                                                                                  │
+│          },                                                                                                                                                  │
+│          {                                                                                                                                                   │
+│            "name": "OYO 12011 Hebbal Residency",                                                                                                             │
+│            "distance_km": 2.7,                                                                                                                               │
+│            "star_rating": 3.2,                                                                                                                               │
+│            "price_range": "500-900 INR",                                                                                                                     │
+│            "amenities": ["wifi", "parking"]                                                                                                                  │
+│          }                                                                                                                                                   │
+│        ]                                                                                                                                                     │
+│      }                                                                                                                                                       │
+│    ]                                                                                                                                                         │
+│  }                                                                                                                                                           │
+│  ```                                                                                                                                                         │
+│                                                                                                                                                              │
+│                                                                                                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭─────────────────────────────────────────────────────────────────────── Tracing Status ───────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                                              │
+│  Info: Tracing is disabled.                                                                                                                                  │
+│                                                                                                                                                              │
+│  To enable tracing, do any one of these:                                                                                                                     │
+│  • Set tracing=True in your Crew/Flow code                                                                                                                   │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file                                                                                               │
+│  • Run: crewai traces enable                                                                                                                                 │
+│                                                                                                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
