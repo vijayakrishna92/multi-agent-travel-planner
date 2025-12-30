@@ -855,3 +855,141 @@ json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
 │  • Run: crewai traces enable                                                                                                                                 │
 │                                                                                                                                                              │
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////####################################################################################################################################################################################################################################################################
+**********************************************************************************************************************************
+**********************************************************************************************************************************
+**********************************************************************************************************************************
+**********************************************************************************************************************************
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////####################################################################################################################################################################################################################################################################
+**********************************************************************************************************************************
+**********************************************************************************************************************************
+**********************************************************************************************************************************
+**********************************************************************************************************************************
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////####################################################################################################################################################################################################################################################################
+**********************************************************************************************************************************
+**********************************************************************************************************************************
+**********************************************************************************************************************************
+**********************************************************************************************************************************
+
+
+
+
+
+
+ Final Output: **Day 1: June 15, 2025**                                                                                                                      │
+│                                                                                                                                                              │
+│  06:00 AM – 09:00 AM: Start from Bengaluru and travel to Mysore by train (approximately 3 hours). Take the train from Bengaluru City Railway Station to      │
+│  Mysore Junction.                                                                                                                                            │
+│                                                                                                                                                              │
+│  09:00 AM – 10:00 AM: Arrive at Mysore Junction and check-in at The Grand Mercure Mysore hotel.                                                              │
+│                                                                                                                                                              │
+│  10:00 AM – 11:00 AM: Have breakfast at Mysore Dasprakash, a South Indian restaurant located near the hotel.                                                 │
+│                                                                                                                                                              │
+│  11:00 AM – 01:00 PM: Visit Jaganmohan Palace, a historic palace located in the heart of Mysore. Explore the palace and its surroundings.                    │
+│                                                                                                                                                              │
+│  01:00 PM – 02:30 PM: Have lunch at Lalitha Mahal Hotel Restaurant, a South Indian restaurant located near Jaganmohan Palace.                                │
+│                                                                                                                                                              │
+│  02:30 PM – 04:30 PM: Visit Lalitha Mahal Road, a scenic road located in Mysore. Take a leisurely walk along the road and enjoy the views.                   │
+│                                                                                                                                                              │
+│  04:30 PM – 06:00 PM: Have evening snacks at KRS Road Cafe, a South Indian restaurant located near Lalitha Mahal Road.                                       │
+│                                                                                                                                                              │
+│  06:00 PM – 08:00 PM: Visit KRS Road, a popular road located in Mysore. Explore the shops and stalls along the road.                                         │
+│                                                                                                                                                              │
+│  08:00 PM – 09:30 PM: Have dinner at The KRS Hotel Restaurant, a South Indian restaurant located near KRS Road.                                              │
+│                                                                                                                                                              │
+│  09:30 PM: Check-in at The KRS Hotel for the night.                                                                                                          │
+│                                                                                                                                                              │
+│  **Day 2: June 16, 2025**                                                                                                                                    │
+│                                                                                                                                                              │
+│  06:00 AM – 07:00 AM: Have breakfast at The KRS Hotel Restaurant.                                                                                            │
+│                                                                                                                                                              │
+│  07:00 AM – 09:00 AM: Visit Shivanasamudra, a scenic waterfall located near Mysore. Take a leisurely walk along the falls and enjoy the views.               │
+│                                                                                                                                                              │
+│  09:00 AM – 10:30 AM: Have lunch at Shivanasamudra Cafe, a South Indian restaurant located near Shivanasamudra.                                              │
+│                                                                                                                                                              │
+│  10:30 AM – 12:30 PM: Visit Jagan Mohan Palace Road, a scenic road located in Mysore. Take a leisurely walk along the road and enjoy the views.              │
+│                                                                                                                                                              │
+│  12:30 PM – 02:00 PM: Have lunch at Jagan Mohan Palace Cafe, a South Indian restaurant located near Jagan Mohan Palace Road.                                 │
+│                                                                                                                                                              │
+│  02:00 PM – 04:00 PM: Visit Jhansi Lakshmi Bai Road, a popular road located in Mysore. Explore the shops and stalls along the road.                          │
+│                                                                                                                                                              │
+│  04:00 PM – 06:00 PM: Have evening snacks at Jhansi Lakshmi Bai Road Cafe, a South Indian restaurant located near Jhansi Lakshmi Bai Road.                   │
+│                                                                                                                                                              │
+│  06:00 PM – 08:00 PM: Visit Karighatta, a scenic hill located near Mysore. Take a leisurely walk along the hill and enjoy the views.                         │
+│                                                                                                                                                              │
+│  08:00 PM – 09:30 PM: Have dinner at The Karighatta Hotel Restaurant, a South Indian restaurant located near Karighatta.                                     │
+│                                                                                                                                                              │
+│  09:30 PM: Check-in at The Karighatta Hotel for the night.                                                                                                   │
+│                                                                                                                                                              │
+│  **Day 3: June 17, 2025**                                                                                                                                    │
+│                                                                                                                                                              │
+│  06:00 AM – 07:00 AM: Have breakfast at The Karighatta Hotel Restaurant.                                                                                     │
+│                                                                                                                                                              │
+│  07:00 AM – 09:00 AM: Visit KRS Road, a popular road located in Mysore. Explore the shops and stalls along the road.                                         │
+│                                                                                                                                                              │
+│  09:00 AM – 10:30 AM: Have lunch at KRS Road Cafe, a South Indian restaurant located near KRS Road.                                                          │
+│                                                                                                                                                              │
+│  10:30 AM – 12:30 PM: Visit Jaganmohan Palace, a historic palace located in the heart of Mysore. Explore the palace and its surroundings.                    │
+│                                                                                                                                                              │
+│  12:30 PM – 02:00 PM: Have lunch at Lalitha Mahal Hotel Restaurant, a South Indian restaurant located near Jaganmohan Palace.                                │
+│                                                                                                                                                              │
+│  02:00 PM – 04:00 PM: Visit Lalitha Mahal Road, a scenic road located in Mysore. Take a leisurely walk along the road and enjoy the views.                   │
+│                                                                                                                                                              │
+│  04:00 PM – 06:00 PM: Have evening snacks at KRS Road Cafe, a South Indian restaurant located near Lalitha Mahal Road.                                       │
+│                                                                                                                                                              │
+│  06:00 PM – 08:00 PM: Visit Shivanasamudra, a scenic waterfall located near Mysore. Take a leisurely walk along the falls and enjoy the views.               │
+│                                                                                                                                                              │
+│  08:00 PM – 09:30 PM: Have dinner at Shivanasamudra Cafe, a South Indian restaurant located near Shivanasamudra.                                             │
+│                                                                                                                                                              │
+│  09:30 PM: Check-in at Shivanasamudra Hotel for the night.                                                                                                   │
+│                                                                                                                                                              │
+│  **Day 4: June 18, 2025**                                                                                                                                    │
+│                                                                                                                                                              │
+│  06:00 AM – 07:00 AM: Have breakfast at Shivanasamudra Cafe.                                                                                                 │
+│                                                                                                                                                              │
+│  07:00 AM – 09:00 AM: Visit Jagan Mohan Palace Road, a scenic road located in Mysore. Take a leisurely walk along the road and enjoy the views.              │
+│                                                                                                                                                              │
+│  09:00 AM – 10:30 AM: Have lunch at Jagan Mohan Palace Cafe, a South Indian restaurant located near Jagan Mohan Palace Road.                                 │
+│                                                                                                                                                              │
+│  10:30 AM – 12:30 PM: Visit Jhansi Lakshmi Bai Road, a popular road located in Mysore. Explore the shops and stalls along the road.                          │
+│                                                                                                                                                              │
+│  12:30 PM – 02:00 PM: Have lunch at Jhansi Lakshmi Bai Road Cafe, a South Indian restaurant located near Jhansi Lakshmi Bai Road.                            │
+│                                                                                                                                                              │
+│  02:00 PM – 04:00 PM: Visit Karighatta, a scenic hill located near Mysore. Take a leisurely walk along the hill and enjoy the views.                         │
+│                                                                                                                                                              │
+│  04:00 PM – 06:00 PM: Have evening snacks at Karighatta Cafe, a South Indian restaurant located near Karighatta.                                             │
+│                                                                                                                                                              │
+│  06:00 PM – 08:00 PM: Visit KRS Road, a popular road located in Mysore. Explore the shops and stalls along the road.                                         │
+│                                                                                                                                                              │
+│  08:00 PM – 09:30 PM: Have dinner at The KRS Hotel Restaurant, a South Indian restaurant located near KRS Road.                                              │
+│                                                                                                                                                              │
+│  09:30 PM: Check-in at The KRS Hotel for the night.                                                                                                          │
+│                                                                                                                                                              │
+│  **Return Journey**                                                                                                                                          │
+│                                                                                                                                                              │
+│  06:00 AM – 09:00 AM: Start from Mysore and travel back to Bengaluru by train (approximately 3 hours). Take the train from Mysore Junction to Bengaluru      │
+│  City Railway Station.   
+
+
+Request Time	Model	API Key	Code	TTFT	Latency	Input
+Tokens	Output
+Tokens	Audio
+Seconds	Request ID	Error
+31/12/2025, 00:10:32	llama-3.1-8b-instant	
+vijaykrishna
+200	0.188	1.792	2186	1410	-	
+req_0...nxmy
+-
+31/12/2025, 00:10:30	llama-3.1-8b-instant	
+vijaykrishna
+200	0.098	2.000	772	2099	-	
+req_0...3fer
+-
+31/12/2025, 00:10:29	llama-3.1-8b-instant	
+vijaykrishna
+200	0.100	0.719	555	468	
