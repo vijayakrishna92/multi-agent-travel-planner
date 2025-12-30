@@ -9,7 +9,7 @@ load_dotenv()
 
 def get_llm(
     model: str = "groq/llama-3.1-8b-instant",
-    temperature: float = 0.7
+    temperature: float = 0.1
 ):
     if "GROQ_API_KEY" not in os.environ:
         os.environ["GROQ_API_KEY"] = getpass.getpass(

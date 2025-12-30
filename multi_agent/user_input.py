@@ -63,3 +63,33 @@ FOOD_ACCOMMODATION_INPUT = {
         "max_distance_km": 3
     }
 }
+TRANSPORT_TIME_INPUT = {
+    'travelers': {
+                    'total_count': 2,
+                    'breakdown': [
+                        {
+                            'type': "adult",
+                            'count': 2
+                        },
+                        {
+                            'type': "child",
+                            'count': 0
+                        }
+                    ]
+                },
+    'budget': {
+                    'amount': 5000,
+                    'currency': "INR"
+                },
+    
+    'starting point':'Bengaluru',
+    'destination': 'Mysore',
+    'starting time':'6:00 am',
+    'duration': {
+                    'number_of_days': 3,
+                    'start_date': "2025-06-15",
+                    'start_time': "09:00",
+                    'end_date': "2025-06-18",
+                    'end_time': "18:00"
+                },
+}
