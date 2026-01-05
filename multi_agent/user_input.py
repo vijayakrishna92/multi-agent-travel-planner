@@ -86,7 +86,7 @@ TRANSPORT_TIME_INPUT = {
     'destination': 'Mysore',
     'starting time':'6:00 am',
     'duration': {
-                    'number_of_days': 3,
+                    'number_of_days': 4,
                     'start_date': "2025-06-15",
                     'start_time': "09:00",
                     'end_date': "2025-06-18",

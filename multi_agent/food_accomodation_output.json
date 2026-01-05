@@ -5,14 +5,14 @@
                 "name": "Mysore Dasprakash",
                 "type": "South Indian",
                 "dietary_restrictions": "no-alcohol",
-                "budget": "100-200 INR",
+                "budget": "100-300 INR",
                 "distance": "0.5 km"
             },
             {
                 "name": "Saravana Bhavan",
                 "type": "South Indian",
                 "dietary_restrictions": "no-alcohol",
-                "budget": "100-200 INR",
+                "budget": "100-300 INR",
                 "distance": "1.2 km"
             }
         ],
@@ -26,10 +26,10 @@
                 "amenities": "wifi, parking"
             },
             {
-                "name": "The Orange Hotel",
+                "name": "The Lalitha Mahal Palace Hotel",
                 "type": "Hotel",
-                "star_rating": "3",
-                "budget": "600-800 INR",
+                "star_rating": "5",
+                "budget": "1000-1500 INR",
                 "child_friendly": "true",
                 "amenities": "wifi, parking"
             }
@@ -41,31 +41,31 @@
                 "name": "Lalitha Mahal Hotel Restaurant",
                 "type": "South Indian",
                 "dietary_restrictions": "no-alcohol",
-                "budget": "200-300 INR",
+                "budget": "200-400 INR",
                 "distance": "0.2 km"
             },
             {
-                "name": "The Mysore Palace Hotel Restaurant",
+                "name": "Saravana Bhavan",
                 "type": "South Indian",
                 "dietary_restrictions": "no-alcohol",
-                "budget": "200-300 INR",
+                "budget": "100-300 INR",
                 "distance": "1.5 km"
             }
         ],
         "accommodations": [
             {
-                "name": "Lalitha Mahal Hotel",
+                "name": "The Lalitha Mahal Palace Hotel",
                 "type": "Hotel",
                 "star_rating": "5",
-                "budget": "1000-1200 INR",
+                "budget": "1000-1500 INR",
                 "child_friendly": "true",
                 "amenities": "wifi, parking"
             },
             {
-                "name": "The Mysore Palace Hotel",
+                "name": "Hotel Sandesh The Prince",
                 "type": "Hotel",
-                "star_rating": "4",
-                "budget": "800-1000 INR",
+                "star_rating": "3",
+                "budget": "500-800 INR",
                 "child_friendly": "true",
                 "amenities": "wifi, parking"
             }
@@ -74,34 +74,34 @@
     "3": {
         "food_options": [
             {
-                "name": "KRS Road Cafe",
+                "name": "Saravana Bhavan",
                 "type": "South Indian",
                 "dietary_restrictions": "no-alcohol",
-                "budget": "100-200 INR",
-                "distance": "0.8 km"
+                "budget": "100-300 INR",
+                "distance": "1.2 km"
             },
             {
-                "name": "The KRS Hotel Restaurant",
+                "name": "Mysore Dasprakash",
                 "type": "South Indian",
                 "dietary_restrictions": "no-alcohol",
-                "budget": "200-300 INR",
-                "distance": "1.8 km"
+                "budget": "100-300 INR",
+                "distance": "1.5 km"
             }
         ],
         "accommodations": [
             {
-                "name": "The KRS Hotel",
+                "name": "Hotel Sandesh The Prince",
                 "type": "Hotel",
                 "star_rating": "3",
-                "budget": "600-800 INR",
+                "budget": "500-800 INR",
                 "child_friendly": "true",
                 "amenities": "wifi, parking"
             },
             {
-                "name": "KRS Road Inn",
+                "name": "The Grand Mercure Mysore",
                 "type": "Hotel",
-                "star_rating": "2",
-                "budget": "400-600 INR",
+                "star_rating": "4",
+                "budget": "800-1000 INR",
                 "child_friendly": "true",
                 "amenities": "wifi, parking"
             }
@@ -110,34 +110,34 @@
     "4": {
         "food_options": [
             {
-                "name": "Shivanasamudra Cafe",
+                "name": "Shivanasamudra Hotel Restaurant",
                 "type": "South Indian",
                 "dietary_restrictions": "no-alcohol",
-                "budget": "100-200 INR",
-                "distance": "1.2 km"
+                "budget": "200-400 INR",
+                "distance": "0.5 km"
             },
             {
-                "name": "The Shivanasamudra Hotel Restaurant",
+                "name": "Sri Rama Lodge",
                 "type": "South Indian",
                 "dietary_restrictions": "no-alcohol",
-                "budget": "200-300 INR",
-                "distance": "2.5 km"
+                "budget": "100-300 INR",
+                "distance": "1.2 km"
             }
         ],
         "accommodations": [
             {
-                "name": "The Shivanasamudra Hotel",
+                "name": "Shivanasamudra Hotel",
                 "type": "Hotel",
-                "star_rating": "4",
-                "budget": "800-1000 INR",
+                "star_rating": "3",
+                "budget": "500-800 INR",
                 "child_friendly": "true",
                 "amenities": "wifi, parking"
             },
             {
-                "name": "Shivanasamudra Inn",
+                "name": "Sri Rama Lodge",
                 "type": "Hotel",
-                "star_rating": "3",
-                "budget": "600-800 INR",
+                "star_rating": "2",
+                "budget": "300-500 INR",
                 "child_friendly": "true",
                 "amenities": "wifi, parking"
             }
@@ -146,23 +146,23 @@
     "5": {
         "food_options": [
             {
-                "name": "Jagan Mohan Palace Cafe",
+                "name": "Mysore Dasprakash",
                 "type": "South Indian",
                 "dietary_restrictions": "no-alcohol",
-                "budget": "100-200 INR",
+                "budget": "100-300 INR",
                 "distance": "0.5 km"
             },
             {
-                "name": "The Jagan Mohan Palace Hotel Restaurant",
+                "name": "Saravana Bhavan",
                 "type": "South Indian",
                 "dietary_restrictions": "no-alcohol",
-                "budget": "200-300 INR",
+                "budget": "100-300 INR",
                 "distance": "1.2 km"
             }
         ],
         "accommodations": [
             {
-                "name": "The Jagan Mohan Palace Hotel",
+                "name": "The Grand Mercure Mysore",
                 "type": "Hotel",
                 "star_rating": "4",
                 "budget": "800-1000 INR",
@@ -170,10 +170,10 @@
                 "amenities": "wifi, parking"
             },
             {
-                "name": "Jagan Mohan Palace Inn",
+                "name": "Hotel Sandesh The Prince",
                 "type": "Hotel",
                 "star_rating": "3",
-                "budget": "600-800 INR",
+                "budget": "500-800 INR",
                 "child_friendly": "true",
                 "amenities": "wifi, parking"
             }
@@ -182,34 +182,34 @@
     "6": {
         "food_options": [
             {
-                "name": "KRS Road Cafe",
+                "name": "Saravana Bhavan",
                 "type": "South Indian",
                 "dietary_restrictions": "no-alcohol",
-                "budget": "100-200 INR",
-                "distance": "0.8 km"
+                "budget": "100-300 INR",
+                "distance": "1.2 km"
             },
             {
-                "name": "The KRS Hotel Restaurant",
+                "name": "Mysore Dasprakash",
                 "type": "South Indian",
                 "dietary_restrictions": "no-alcohol",
-                "budget": "200-300 INR",
-                "distance": "1.8 km"
+                "budget": "100-300 INR",
+                "distance": "1.5 km"
             }
         ],
         "accommodations": [
             {
-                "name": "The KRS Hotel",
+                "name": "Hotel Sandesh The Prince",
                 "type": "Hotel",
                 "star_rating": "3",
-                "budget": "600-800 INR",
+                "budget": "500-800 INR",
                 "child_friendly": "true",
                 "amenities": "wifi, parking"
             },
             {
-                "name": "KRS Road Inn",
+                "name": "The Grand Mercure Mysore",
                 "type": "Hotel",
-                "star_rating": "2",
-                "budget": "400-600 INR",
+                "star_rating": "4",
+                "budget": "800-1000 INR",
                 "child_friendly": "true",
                 "amenities": "wifi, parking"
             }
@@ -218,23 +218,23 @@
     "7": {
         "food_options": [
             {
-                "name": "Jhansi Lakshmi Bai Road Cafe",
+                "name": "Mysore Dasprakash",
                 "type": "South Indian",
                 "dietary_restrictions": "no-alcohol",
-                "budget": "100-200 INR",
+                "budget": "100-300 INR",
                 "distance": "0.5 km"
             },
             {
-                "name": "The Jhansi Lakshmi Bai Road Hotel Restaurant",
+                "name": "Saravana Bhavan",
                 "type": "South Indian",
                 "dietary_restrictions": "no-alcohol",
-                "budget": "200-300 INR",
+                "budget": "100-300 INR",
                 "distance": "1.2 km"
             }
         ],
         "accommodations": [
             {
-                "name": "The Jhansi Lakshmi Bai Road Hotel",
+                "name": "The Grand Mercure Mysore",
                 "type": "Hotel",
                 "star_rating": "4",
                 "budget": "800-1000 INR",
@@ -242,10 +242,10 @@
                 "amenities": "wifi, parking"
             },
             {
-                "name": "Jhansi Lakshmi Bai Road Inn",
+                "name": "Hotel Sandesh The Prince",
                 "type": "Hotel",
                 "star_rating": "3",
-                "budget": "600-800 INR",
+                "budget": "500-800 INR",
                 "child_friendly": "true",
                 "amenities": "wifi, parking"
             }
@@ -254,34 +254,34 @@
     "8": {
         "food_options": [
             {
-                "name": "Karighatta Cafe",
+                "name": "Karighatta Hotel Restaurant",
                 "type": "South Indian",
                 "dietary_restrictions": "no-alcohol",
-                "budget": "100-200 INR",
-                "distance": "1.5 km"
+                "budget": "200-400 INR",
+                "distance": "0.5 km"
             },
             {
-                "name": "The Karighatta Hotel Restaurant",
+                "name": "Sri Rama Lodge",
                 "type": "South Indian",
                 "dietary_restrictions": "no-alcohol",
-                "budget": "200-300 INR",
-                "distance": "2.8 km"
+                "budget": "100-300 INR",
+                "distance": "1.2 km"
             }
         ],
         "accommodations": [
             {
-                "name": "The Karighatta Hotel",
+                "name": "Karighatta Hotel",
                 "type": "Hotel",
-                "star_rating": "4",
-                "budget": "800-1000 INR",
+                "star_rating": "3",
+                "budget": "500-800 INR",
                 "child_friendly": "true",
                 "amenities": "wifi, parking"
             },
             {
-                "name": "Karighatta Inn",
+                "name": "Sri Rama Lodge",
                 "type": "Hotel",
-                "star_rating": "3",
-                "budget": "600-800 INR",
+                "star_rating": "2",
+                "budget": "300-500 INR",
                 "child_friendly": "true",
                 "amenities": "wifi, parking"
             }

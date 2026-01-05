@@ -993,3 +993,72 @@ req_0...3fer
 31/12/2025, 00:10:29	llama-3.1-8b-instant	
 vijaykrishna
 200	0.100	0.719	555	468	
+
+
+
+
+
+
+
+
+
+
+
+
+
+│  Crew Execution Completed                                                                                                                                    │
+│  Name: crew                                                                                                                                                  │
+│  ID: 3fbac186-b5d6-491f-978b-c7fa4a86319f                                                                                                                    │
+│  Tool Args:                                                                                                                                                  │
+│  Final Output: **Day 1: June 15, 2025**                                                                                                                      │
+│                                                                                                                                                              │
+│  06:00 AM – 09:00 AM: Start from Bengaluru and travel to Mysore by bus (approximately 3 hours)                                                               │
+│  09:00 AM – 10:00 AM: Arrive in Mysore and check-in at The Grand Mercure Mysore                                                                              │
+│  10:00 AM – 11:00 AM: Have breakfast at Mysore Dasprakash                                                                                                    │
+│  11:00 AM – 01:00 PM: Visit Jaganmohan Palace (09:00 AM - 05:30 PM)                                                                                          │
+│  01:00 PM – 02:00 PM: Have lunch at Lalitha Mahal Hotel Restaurant                                                                                           │
+│  02:00 PM – 04:00 PM: Visit Lalitha Mahal Road (09:00 AM - 05:00 PM)                                                                                         │
+│  04:00 PM – 05:00 PM: Have evening snacks at Saravana Bhavan                                                                                                 │
+│  05:00 PM – 06:00 PM: Visit KRS Road (09:00 AM - 08:00 PM)                                                                                                   │
+│  06:00 PM – 07:00 PM: Have dinner at Mysore Dasprakash                                                                                                       │
+│  07:00 PM – 09:00 PM: Explore the surroundings of KRS Road                                                                                                   │
+│  09:00 PM – 10:00 PM: Check-in at The Grand Mercure Mysore for the night                                                                                     │
+│                                                                                                                                                              │
+│  **Day 2: June 16, 2025**                                                                                                                                    │
+│                                                                                                                                                              │
+│  06:00 AM – 08:00 AM: Start the day with a visit to Shivanasamudra (24 hours)                                                                                │
+│  08:00 AM – 09:00 AM: Have breakfast at Shivanasamudra Hotel Restaurant                                                                                      │
+│  09:00 AM – 12:00 PM: Visit Shivanasamudra                                                                                                                   │
+│  12:00 PM – 01:00 PM: Have lunch at Shivanasamudra Hotel Restaurant                                                                                          │
+│  01:00 PM – 03:00 PM: Travel back to Mysore by bus (approximately 2 hours)                                                                                   │
+│  03:00 PM – 04:00 PM: Check-in at Hotel Sandesh The Prince                                                                                                   │
+│  04:00 PM – 05:00 PM: Have evening snacks at Saravana Bhavan                                                                                                 │
+│  05:00 PM – 06:00 PM: Visit Irwin Road (08:30 AM - 05:30 PM)                                                                                                 │
+│  06:00 PM – 07:00 PM: Have dinner at Mysore Dasprakash                                                                                                       │
+│  07:00 PM – 09:00 PM: Explore the surroundings of Irwin Road                                                                                                 │
+│  09:00 PM – 10:00 PM: Check-in at Hotel Sandesh The Prince for the night                                                                                     │
+│                                                                                                                                                              │
+│  **Day 3: June 17, 2025**                                                                                                                                    │
+│                                                                                                                                                              │
+│  06:00 AM – 08:00 AM: Start the day with a visit to Karighatta (06:00 AM - 08:00 PM)                                                                         │
+│  08:00 AM – 09:00 AM: Have breakfast at Karighatta Hotel Restaurant                                                                                          │
+│  09:00 AM – 12:00 PM: Visit Karighatta                                                                                                                       │
+│  12:00 PM – 01:00 PM: Have lunch at Karighatta Hotel Restaurant                                                                                              │
+│  01:00 PM – 03:00 PM: Travel back to Mysore by bus (approximately 2 hours)                                                                                   │
+│  03:00 PM – 04:00 PM: Check-in at The Grand Mercure Mysore                                                                                                   │
+│  04:00 PM – 05:00 PM: Have evening snacks at Saravana Bhavan                                                                                                 │
+│  05:00 PM – 06:00 PM: Visit Jhansi Lakshmi Bai Road (08:00 AM - 06:00 PM)                                                                                    │
+│  06:00 PM – 07:00 PM: Have dinner at Mysore Dasprakash                                                                                                       │
+│  07:00 PM – 09:00 PM: Explore the surroundings of Jhansi Lakshmi Bai Road                                                                                    │
+│  09:00 PM – 10:00 PM: Check-in at The Grand Mercure Mysore for the night                                                                                     │
+│                                                                                                                                                              │
+│  **Day 4: June 18, 2025**                                                                                                                                    │
+│                                                                                                                                                              │
+│  06:00 AM – 08:00 AM: Start the day with a visit to KRS Road (09:00 AM - 06:00 PM)                                                                           │
+│  08:00 AM – 09:00 AM: Have breakfast at Mysore Dasprakash                                                                                                    │
+│  09:00 AM – 12:00 PM: Visit KRS Road                                                                                                                         │
+│  12:00 PM – 01:00 PM: Have lunch at Lalitha Mahal Hotel Restaurant                                                                                           │
+│  01:00 PM – 03:00 PM: Explore the surroundings of KRS Road                                                                                                   │
+│  03:00 PM – 04:00 PM: Check-out from The Grand Mercure Mysore                                                                                                │
+│  04:00 PM – 05:00 PM: Travel back to Bengaluru by bus (approximately 3 hours)                                                                                │
+│  05:00 PM – 06:00 PM: Arrive in Bengaluru and end the trip  

@@ -4,13 +4,13 @@
       {
         "name": "Mysore Palace",
         "location": "Jaganmohan Palace, Sayyaji Rao Road, Mysore, Karnataka 570001",
-        "opening_timings": "09:00 AM to 05:30 PM",
+        "opening_timings": "09:00 AM - 05:30 PM",
         "id": 1
       },
       {
         "name": "Lalitha Mahal Palace",
         "location": "Lalitha Mahal Road, Mysore, Karnataka 570024",
-        "opening_timings": "09:00 AM to 05:00 PM",
+        "opening_timings": "09:00 AM - 05:00 PM",
         "id": 2
       }
     ],
@@ -18,7 +18,7 @@
       {
         "name": "Brindavan Gardens",
         "location": "KRS Road, Mysore, Karnataka 570008",
-        "opening_timings": "09:00 AM to 07:00 PM",
+        "opening_timings": "09:00 AM - 08:00 PM",
         "id": 3
       },
       {
@@ -31,14 +31,14 @@
     "adventure": [
       {
         "name": "Mysore Zoo",
-        "location": "Jagan Mohan Palace Road, Mysore, Karnataka 570001",
-        "opening_timings": "08:30 AM to 05:30 PM",
+        "location": "Irwin Road, Mysore, Karnataka 570001",
+        "opening_timings": "08:30 AM - 05:30 PM",
         "id": 5
       },
       {
         "name": "Sand Dune Adventure",
         "location": "KRS Road, Mysore, Karnataka 570008",
-        "opening_timings": "09:00 AM to 06:00 PM",
+        "opening_timings": "09:00 AM - 06:00 PM",
         "id": 6
       }
     ],
@@ -46,13 +46,13 @@
       {
         "name": "St. Philomena's Church",
         "location": "Jhansi Lakshmi Bai Road, Mysore, Karnataka 570001",
-        "opening_timings": "06:00 AM to 06:00 PM",
+        "opening_timings": "08:00 AM - 06:00 PM",
         "id": 7
       },
       {
         "name": "Karighatta Temple",
         "location": "Karighatta, Mysore, Karnataka 570009",
-        "opening_timings": "06:00 AM to 06:00 PM",
+        "opening_timings": "06:00 AM - 08:00 PM",
         "id": 8
       }
     ]
