@@ -5,23 +5,10 @@ RESEARCHER_INPUTS={
                 'duration': {
                     'number_of_days': 2,
                     'start_date': "2025-06-15",
-                    'start_time': "06:00",
-                    'end_date': "2025-06-16",
-                    'end_time': "18:00"
                 },
                 
                 'travelers': {
                     'total_count': 2,
-                    'breakdown': [
-                        {
-                            'type': "adult",
-                            'count': 2
-                        },
-                        {
-                            'type': "child",
-                            'count': 0
-                        }
-                    ]
                 },
                 
                 'preferences': {
