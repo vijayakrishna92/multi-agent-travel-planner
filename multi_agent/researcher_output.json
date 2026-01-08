@@ -1,59 +1,73 @@
 {
+  "destination": "Mysore",
   "places": {
     "historical": [
       {
         "name": "Mysore Palace",
-        "location": "Jaganmohan Palace, Sayyaji Rao Road, Mysore, Karnataka 570001",
-        "opening_timings": "09:00 AM - 05:30 PM",
+        "location": "Mysore, Karnataka, 570001",
+        "opening_timings": "9:00 AM - 5:30 PM (2025-06-15: Open)",
+        "crowd_level": "Medium",
         "id": 1
       },
       {
         "name": "Lalitha Mahal Palace",
-        "location": "Lalitha Mahal Road, Mysore, Karnataka 570024",
-        "opening_timings": "09:00 AM - 05:00 PM",
+        "location": "Mysore, Karnataka, 570024",
+        "opening_timings": "9:00 AM - 5:30 PM (2025-06-15: Open)",
+        "crowd_level": "High",
         "id": 2
+      },
+      {
+        "name": "St. Philomena's Cathedral",
+        "location": "Mysore, Karnataka, 570001",
+        "opening_timings": "9:00 AM - 5:00 PM (2025-06-15: Open)",
+        "crowd_level": "Medium",
+        "id": 3
       }
     ],
     "nature": [
       {
         "name": "Brindavan Gardens",
-        "location": "KRS Road, Mysore, Karnataka 570008",
-        "opening_timings": "09:00 AM - 08:00 PM",
-        "id": 3
+        "location": "Mysore, Karnataka, 570006",
+        "opening_timings": "6:00 AM - 8:00 PM (2025-06-15: Open)",
+        "crowd_level": "High",
+        "id": 4
       },
       {
-        "name": "Shivanasamudra Falls",
-        "location": "Shivanasamudra, Mandya, Karnataka 571117",
-        "opening_timings": "24 hours",
-        "id": 4
-      }
-    ],
-    "adventure": [
-      {
-        "name": "Mysore Zoo",
-        "location": "Irwin Road, Mysore, Karnataka 570001",
-        "opening_timings": "08:30 AM - 05:30 PM",
+        "name": "Karanji Lake",
+        "location": "Mysore, Karnataka, 570008",
+        "opening_timings": "6:00 AM - 8:00 PM (2025-06-15: Open)",
+        "crowd_level": "Medium",
         "id": 5
       },
       {
-        "name": "Sand Dune Adventure",
-        "location": "KRS Road, Mysore, Karnataka 570008",
-        "opening_timings": "09:00 AM - 06:00 PM",
+        "name": "Srirangapatna Island",
+        "location": "Mysore, Karnataka, 571438",
+        "opening_timings": "6:00 AM - 8:00 PM (2025-06-15: Open)",
+        "crowd_level": "Medium",
         "id": 6
       }
     ],
     "cultural": [
       {
-        "name": "St. Philomena's Church",
-        "location": "Jhansi Lakshmi Bai Road, Mysore, Karnataka 570001",
-        "opening_timings": "08:00 AM - 06:00 PM",
+        "name": "Devaraja Market",
+        "location": "Mysore, Karnataka, 570001",
+        "opening_timings": "9:00 AM - 8:00 PM (2025-06-15: Open)",
+        "crowd_level": "High",
         "id": 7
       },
       {
-        "name": "Karighatta Temple",
-        "location": "Karighatta, Mysore, Karnataka 570009",
-        "opening_timings": "06:00 AM - 08:00 PM",
+        "name": "Mysore Sand Sculpture Museum",
+        "location": "Mysore, Karnataka, 570001",
+        "opening_timings": "9:00 AM - 6:00 PM (2025-06-15: Open)",
+        "crowd_level": "Medium",
         "id": 8
+      },
+      {
+        "name": "Sri Chamundeshwari Temple",
+        "location": "Mysore, Karnataka, 570024",
+        "opening_timings": "6:00 AM - 12:00 PM, 5:00 PM - 8:00 PM (2025-06-15: Open)",
+        "crowd_level": "High",
+        "id": 9
       }
     ]
   }

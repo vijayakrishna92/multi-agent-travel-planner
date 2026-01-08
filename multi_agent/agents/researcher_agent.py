@@ -2,11 +2,15 @@ from crewai import Agent
 from core.agent_llm import get_llm
 
 researcher = Agent(
-    role="senior travel researcher",
-    goal="design a personalized trip plan based on structured trip details",
+    role="destination research specialist",
+    goal=(
+        "Research destination-specific places strictly based on user preferences "
+        "and return structured, machine-readable location data"
+    ),
     backstory=(
-        "You are an expert travel researcher who converts structured trip inputs "
-        "into clear, visual-friendly itinerary data."
+        "You are an expert travel researcher who understands user intent, "
+        "filters attractions based on preferences, and outputs clean structured data "
+        "for downstream itinerary planning agents."
     ),
     llm=get_llm(),
     verbose = True

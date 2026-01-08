@@ -2,16 +2,11 @@ RESEARCHER_INPUTS={
             'trip_details': {
                 'destination': 'Mysore',
                 
-                'budget': {
-                    'amount': 5000,
-                    'currency': "INR"
-                },
-                
                 'duration': {
-                    'number_of_days': 3,
+                    'number_of_days': 2,
                     'start_date': "2025-06-15",
-                    'start_time': "09:00",
-                    'end_date': "2025-06-18",
+                    'start_time': "06:00",
+                    'end_date': "2025-06-16",
                     'end_time': "18:00"
                 },
                 
@@ -30,7 +25,7 @@ RESEARCHER_INPUTS={
                 },
                 
                 'preferences': {
-                    'site_types': ["historical", "nature", "adventure", "cultural"],
+                    'site_types': ["historical", "nature", "cultural"],
                     'interests': ["hiking", "local cuisine", "photography"],
                 }
             }

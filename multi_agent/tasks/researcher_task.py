@@ -3,35 +3,57 @@ from agents import researcher_agent
 
 researcher = Task(
     description=(
-        "Research suitable places and attractions "
-        "using the following trip details:\n\n"
-        "{task_details}\n\n"
-        "IMPORTANT: Only research places that match the site_types specified in preferences. "
-        "The site_types are the categories you must use. "
-        "For each site_type in the preferences, find 2 relevant places with complete addresses."
+        "You are provided with structured trip information.\n\n"
+
+        "TRIP DETAILS:\n"
+        "- Destination city: {destination}\n"
+        "- Trip duration: {number_of_days} days\n"
+        "- Trip start date: {start_date}\n"
+        "- Total travelers: {total_count}\n"
+        "- Preferred site types: {site_types}\n"
+        "- Traveler interests: {interests}\n\n"
+
+        "Your task is to research tourist places to visit in and around "
+        "{destination} that are suitable for {total_count} travelers over "
+        "a {number_of_days}-day trip starting on {start_date}.\n\n"
+
+        "Place selection rules:\n"
+        "- ONLY include places located in {destination}\n"
+        "- ONLY include places that match the site types in {site_types}\n"
+        "- Prefer places that align with traveler interests: {interests}\n"
+        "- Exclude places that are closed on {start_date} (due to holidays or maintenance)\n"
+        "- If opening timings are unavailable for {start_date}, mark as 'Unknown'\n\n"
+
+        "For EACH site type, find the required number of relevant tourist places.\n\n"
+
+        "For every place, provide:\n"
+        "- Name of the place\n"
+        "- Complete address (must include {destination}, state, and pincode)\n"
+        "- Opening timings (consider {start_date})\n"
+        "- Crowd level (Low / Medium / High, based on typical tourist volume)\n\n"
+
+        "Do NOT include food spots, hotels, transportation details, or itinerary planning."
     ),
     expected_output=(
-        "Return ONLY a properly formatted JSON object in the following structure:\n\n"
+        "Return ONLY a valid JSON object in the following structure:\n\n"
         "{\n"
+        "  \"destination\": \"<destination_city>\",\n"
         "  \"places\": {\n"
-        "    \"<site_type_from_preferences>\": [\n"
+        "    \"<site_type>\": [\n"
         "      {\n"
-        "        \"name\": \"<place_name>\",\n"
-        "        \"location\": \"<full_address_with_city_state_pincode>\",\n"
-        "        \"opening_timings\": \"<opening_time>\"\n"
+        "        \"name\": \"\",\n"
+        "        \"location\": \"\",\n"
+        "        \"opening_timings\": \"\",\n"
+        "        \"crowd_level\": \"Low | Medium | High\"\n"
         "      }\n"
         "    ]\n"
         "  }\n"
         "}\n\n"
         "Rules:\n"
-        "- Use ONLY the site_types from preferences as category names (e.g., if preferences has ['historical', 'nature'], use only those)\n"
-        "- Each category must contain 2 places\n"
-        "- Provide complete address with city, state, and pincode for location field\n"
+        "- Use ONLY site types from {site_types}{interests}\n"
+        "- Each place MUST include crowd_level\n"
         "- Output JSON only\n"
-        "- No markdown formatting (no ```json or ```)\n"
-        "- No explanations or additional text\n"
-        "- Do NOT include food, accommodations, or any sections not in site_types\n"
-        "- Follow the structure exactly"
+        "- No additional text"
     ),
     agent=researcher_agent.researcher
 )

@@ -13,10 +13,19 @@ def researchers():
         process=Process.sequential,
         verbose=True
     )
-    u_input = {'task_details':json_toon.json_toon_converter(user_input.RESEARCHER_INPUTS)}
+    #u_input = {'task_details':json_toon.json_toon_converter(user_input.RESEARCHER_INPUTS)}
+    trip = user_input.RESEARCHER_INPUTS["trip_details"]
     raw_places_output = researcher_crew.kickoff(
-        inputs=u_input
-        #inputs = user_input.RESEARCHER_INPUTS
+        #inputs=u_input
+        # inputs = user_input.RESEARCHER_INPUTS
+        {
+    "destination": trip["destination"],
+    "number_of_days": trip["duration"]["number_of_days"],
+    "start_date": trip["duration"]["start_date"],
+    "total_count": trip["travelers"]["total_count"],
+    "site_types": trip["preferences"]["site_types"],
+    "interests": trip["preferences"]["interests"]
+}
     )
      # Robust JSON parsing
     try:
@@ -88,7 +97,7 @@ def researchers():
     with open(output_file, 'w') as f:
         json.dump(places_data, f, indent=2)
     
-    print(f"\nOutput saved to {output_file}")
+    # print(f"\nOutput saved to {output_file}")
     
     # Extract id and location
     food_accomodation_ip = []
@@ -101,8 +110,8 @@ def researchers():
                         'location': place['location']
                     })
     
-    print("\n--- food_accomodation_input ID and Locations ---")
-    print(json.dumps(food_accomodation_ip , indent=2))
+    # print("\n--- food_accomodation_input ID and Locations ---")
+    # print(json.dumps(food_accomodation_ip , indent=2))
     
     transportation_timings_ip = []
     for category in places_data['places'].values():
@@ -115,7 +124,7 @@ def researchers():
                         'opening_timings':place['opening_timings']
                     })
     
-    print("\n--- transportation_timings_ip ID and Locations ---")
-    print(json.dumps(transportation_timings_ip, indent=2))
+    # print("\n--- transportation_timings_ip ID and Locations ---")
+    # print(json.dumps(transportation_timings_ip, indent=2))
     
     return food_accomodation_ip,transportation_timings_ip
